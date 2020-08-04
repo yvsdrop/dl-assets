@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    .nav-icons {position:absolute;top:1em;right:1em}
+    .nav-icons img {height:24px}
+    .chara-link a {display:block}
+    .chara-link img {width:80px}
+    .part {padding:6px;margin:2px;border-radius:4px;cursor:pointer}
+    .part:hover {background:rgba(0,0,0,.2)}
+    .part.selected {background:lightskyblue}
+    .part img {border-radius:4px;max-width:100px}
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HZECW24XKD"></script>
+  <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-HZECW24XKD');</script>
+  <title>Dragalia Story Sprites</title>
+</head>
+<body onload="onload()">
+  <div id="main"></div>
+  <div class="nav-icons">
+    <a id="home-link" href="index.html"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/home/v7/gm_grey-48dp/2x/gm_home_gm_grey_48dp.png"></a>
+    <a href="../about.html"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/info/v9/gm_grey-48dp/2x/gm_info_gm_grey_48dp.png"></a>
+  </div>
+  <script>
+    let ctx, canvas, base_image, parts_data;
+    const mainEl = document.getElementById('main');
+    const homeLink = document.getElementById('home-link');
+
+    function onload() {
+      const id = window.location.search.substring(1);
+      if (!id) {
+        homeLink.href = '../index.html';
+        console.log(homeLink.href);
+        fetch('index.json')
+          .then(response => response.json())
+          .then(json => {
+            renderAllCharacters(json);
+          });
+      } else {
+        homeLink.href = 'index.html';
+        renderSingleCharacter(id);
+      }
+    }
+
+    function renderAllCharacters(data) {
+      const entries = [];
+      for (const entry of data) {
+        const id = entry['id'];
+        const label = entry['label'];
+        entries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
+      }
+      mainEl.style = 'margin-top:2em;text-align:center';
+      mainEl.className = 'container';
+      mainEl.innerHTML = `<h2>Dragalia Lost Story Sprites</h2><div style="display:grid;grid-gap:1em;grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));margin:2em auto">${entries.join('')}</div>`;
+    }
+
+    function renderSingleCharacter(id) {
+      fetch(`${id}/index.json`)
+          .then(response => response.json())
+          .then(json => {
+            parts_data = json;
+            renderSingleCharacterInner(id);
+          });
+    }
+
+    function renderSingleCharacterInner(id) {
+      // Load canvas element.
+      canvas = document.createElement('canvas');
+      canvas.width = parts_data['rect']['width'];
+      canvas.height = parts_data['rect']['height'];
+      canvas.style = 'flex:none;align-self:center;margin:0 auto';
+      // Construct main content.
+      const parts = [];
+      for (const part_id of parts_data['parts']['images']) {
+        parts.push(`<a class="part"><img src="${id}/${id}_parts_c${part_id}.png"></a>`);
+      }
+      mainEl.style = 'display:flex;min-height:100vh';
+      mainEl.className = '';
+      mainEl.innerHTML = '<div style="height:100vh;padding:2em;overflow-y:auto;flex:1 0 415px;max-width:max(415px, 45vw);border-right:1px solid #ccc;">'
+        + '<h5>Expressions<button id="reset-btn" class="btn btn-outline-primary" style="margin-left:1em;">Reset</button></h5>'
+        + '<div style="display:flex;flex-flow:row wrap;margin:0 -10px">' + parts.join('') + '</div>'
+        + '</div>';
+      mainEl.appendChild(canvas);
+      ctx = canvas.getContext('2d');
+
+      // Draw the base image onto the canvas.
+      base_image = new Image();
+      base_image.onload = reset;
+      base_image.src = `${id}/${id}_base.png`;
+
+      // Adjust the position calculations
+      const part_pos_x = parts_data['parts']['position']['x'] - parts_data['rect']['x'];
+      const part_pos_y = parts_data['parts']['position']['y'] - parts_data['rect']['y'];
+
+      $('.part').click(function() {
+        reset();
+        $(this).toggleClass('selected');
+        $('.selected').each(function() {
+          ctx.drawImage(this.firstChild, part_pos_x, part_pos_y);
+        });
+      });
+      $('#reset-btn').click(function() {
+        reset();
+        $('.selected').each(function() {
+          $(this).removeClass('selected');
+        });
+      });
+    }
+
+    function reset() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(base_image, -parts_data['rect']['x'], -parts_data['rect']['y']);
+    }
+  </script>
+</body>
+</html>
