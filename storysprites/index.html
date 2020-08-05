@@ -53,12 +53,14 @@
     onpopstate = navigate;
     navigate();
 
-    $('#home-link').click(function() {
-      if (!!window.location.search) {
-        history.pushState({}, document.body.title, this.href);
-        navigate();
+    $('#home-link').click(function(e) {
+      if (!e.ctrlKey && !e.metaKey && e.which != 2) {
+        if (!!window.location.search) {
+          history.pushState({}, document.body.title, this.href);
+          navigate();
+        }
+        return false;
       }
-      return false;
     });
 
     function toggleMain(show) {
@@ -101,10 +103,12 @@
       document.getElementById('chara-entries').innerHTML = entries.join('');
       document.getElementById('one-part-entries').innerHTML = onePartEntries.join('');
       document.getElementById('partsless-entries').innerHTML = partlessEntries.join('');
-      $('.chara-link a').click(function() {
-        history.pushState({}, this.href.split('?')[1], this.href);
-        navigate();
-        return false;
+      $('.chara-link a').click(function(e) {
+        if (!e.ctrlKey && !e.metaKey && e.which != 2) {
+          history.pushState({}, this.href.split('?')[1], this.href);
+          navigate();
+          return false;
+        }
       });
     }
     function renderSingleCharacter(id) {
