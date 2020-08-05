@@ -20,33 +20,48 @@
   <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-174467306-1');</script>
   <title>Dragalia Story Sprites</title>
 </head>
-<body onload="onload()">
-  <div id="main"></div>
+<body>
+  <div id="main" class="container" style="display:none;margin-top:2em;text-align:center">
+    <h2>Dragalia Lost Story Sprites</h2>
+    <div id="chara-entries" style="display:grid;grid-gap:1em;grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));margin:2em auto"></div>
+  </div>
+  <div id="editor" style="display:none;min-height:100vh">
+    <div style="height:100vh;padding:2em;overflow-y:auto;flex:1 0 415px;max-width:max(415px, 45vw);border-right:1px solid #ccc;">
+      <div class="custom-control custom-checkbox custom-control-inline" style="vertical-align:middle">
+        <input type="checkbox" id="faceOnlyCheckbox" class="custom-control-input">
+        <label class="custom-control-label" for="faceOnlyCheckbox">Hide background</label>
+      </div>
+      <button id="reset-btn" class="btn btn-outline-primary">Reset</button>
+      <div id="parts-list" style="display:flex;flex-flow:row wrap;margin:1em -10px 0"></div>
+    </div>
+    <canvas id="canvas" style="flex:none;align-self:center;margin:0 auto"></canvas>
+  </div>
   <div class="nav-icons">
-    <a id="home-link" href="index.html"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/home/v7/gm_grey-48dp/2x/gm_home_gm_grey_48dp.png"></a>
+    <a id="home-link" href="#"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/home/v7/gm_grey-48dp/2x/gm_home_gm_grey_48dp.png"></a>
     <a href="../about.html"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/info/v9/gm_grey-48dp/2x/gm_info_gm_grey_48dp.png"></a>
   </div>
   <script>
-    let ctx, canvas, base_image, parts_data;
-    const mainEl = document.getElementById('main');
+    let base_image, parts_data, part_pos_x, part_pos_y;
     const homeLink = document.getElementById('home-link');
-
-    function onload() {
-      const id = window.location.search.substring(1);
-      if (!id) {
-        homeLink.href = '../index.html';
-        console.log(homeLink.href);
-        fetch('index.json')
-          .then(response => response.json())
-          .then(json => {
-            renderAllCharacters(json);
-          });
-      } else {
-        homeLink.href = 'index.html';
-        renderSingleCharacter(id);
-      }
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    let id = window.location.search.substring(1);
+  
+    if (!id) {
+      homeLink.href = '../index.html';
+      fetch('index.json')
+        .then(response => response.json())
+        .then(json => {
+          renderAllCharacters(json);
+        });
+    } else {
+      homeLink.href = 'index.html';
+      renderSingleCharacter(id);
     }
-
+    function toggleMain(show) {
+      $('#main').toggle(show);
+      $('#editor').css('display', show ? 'none' : 'flex');
+    }
     function renderAllCharacters(data) {
       const entries = [];
       for (const entry of data) {
@@ -54,11 +69,9 @@
         const label = entry['label'];
         entries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
       }
-      mainEl.style = 'margin-top:2em;text-align:center';
-      mainEl.className = 'container';
-      mainEl.innerHTML = `<h2>Dragalia Lost Story Sprites</h2><div style="display:grid;grid-gap:1em;grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));margin:2em auto">${entries.join('')}</div>`;
+      document.getElementById('chara-entries').innerHTML = entries.join('');
+      toggleMain(true);
     }
-
     function renderSingleCharacter(id) {
       fetch(`${id}/index.json`)
           .then(response => response.json())
@@ -67,26 +80,16 @@
             renderSingleCharacterInner(id);
           });
     }
-
     function renderSingleCharacterInner(id) {
       // Load canvas element.
-      canvas = document.createElement('canvas');
       canvas.width = parts_data['rect']['width'];
       canvas.height = parts_data['rect']['height'];
-      canvas.style = 'flex:none;align-self:center;margin:0 auto';
       // Construct main content.
       const parts = [];
       for (const part_id of parts_data['parts']['images']) {
         parts.push(`<a class="part"><img src="${id}/${id}_parts_c${part_id}.png"></a>`);
       }
-      mainEl.style = 'display:flex;min-height:100vh';
-      mainEl.className = '';
-      mainEl.innerHTML = '<div style="height:100vh;padding:2em;overflow-y:auto;flex:1 0 415px;max-width:max(415px, 45vw);border-right:1px solid #ccc;">'
-        + '<h5>Expressions<button id="reset-btn" class="btn btn-outline-primary" style="margin-left:1em;">Reset</button></h5>'
-        + '<div style="display:flex;flex-flow:row wrap;margin:0 -10px">' + parts.join('') + '</div>'
-        + '</div>';
-      mainEl.appendChild(canvas);
-      ctx = canvas.getContext('2d');
+      document.getElementById('parts-list').innerHTML = parts.join('');
 
       // Draw the base image onto the canvas.
       base_image = new Image();
@@ -94,15 +97,18 @@
       base_image.src = `${id}/${id}_base.png`;
 
       // Adjust the position calculations
-      const part_pos_x = parts_data['parts']['position']['x'] - parts_data['rect']['x'];
-      const part_pos_y = parts_data['parts']['position']['y'] - parts_data['rect']['y'];
+      part_pos_x = parts_data['parts']['position']['x'] - parts_data['rect']['x'];
+      part_pos_y = parts_data['parts']['position']['y'] - parts_data['rect']['y'];
 
+      $('#faceOnlyCheckbox').click(function() {
+        // Resize canvas.
+        canvas.width = this.checked ? parts_data['parts']['size']['x'] : parts_data['rect']['width'];
+        canvas.height = this.checked ? parts_data['parts']['size']['y'] : parts_data['rect']['height'];
+        redraw();
+      });
       $('.part').click(function() {
-        reset();
         $(this).toggleClass('selected');
-        $('.selected').each(function() {
-          ctx.drawImage(this.firstChild, part_pos_x, part_pos_y);
-        });
+        redraw();
       });
       $('#reset-btn').click(function() {
         reset();
@@ -110,11 +116,28 @@
           $(this).removeClass('selected');
         });
       });
+      toggleMain(false);
     }
-
     function reset() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.drawImage(base_image, -parts_data['rect']['x'], -parts_data['rect']['y']);
+      if (!$('#faceOnlyCheckbox').prop('checked')) {
+        ctx.drawImage(base_image, -parts_data['rect']['x'], -parts_data['rect']['y']);
+      }
+    }
+    function redraw() {
+      reset();
+      const cropToFace = $('#faceOnlyCheckbox').prop('checked');
+      const pos_x = cropToFace ? 0 : part_pos_x;
+      const pos_y = cropToFace ? 0 : part_pos_y;
+      const selected = $('.selected');
+      if (selected.length) {
+        selected.each(function() {
+          ctx.drawImage(this.firstChild, pos_x, pos_y);
+        });
+      } else if (cropToFace) {
+        ctx.fillStyle = '#eee';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+      }
     }
   </script>
 </body>
