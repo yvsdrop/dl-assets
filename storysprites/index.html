@@ -8,6 +8,7 @@
   <style>
     .nav-icons {position:absolute;top:1em;right:1em}
     .nav-icons img {height:24px}
+    .entries-grid {display:grid;grid-gap:1em;grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));margin:2em auto}
     .chara-link a {display:block}
     .chara-link img {width:80px;height:80px}
     .part {padding:6px;margin:2px;border-radius:4px;cursor:pointer}
@@ -23,7 +24,11 @@
 <body>
   <div id="main" class="container" style="display:none;margin-top:2em;text-align:center">
     <h2>Dragalia Lost Story Sprites</h2>
-    <div id="chara-entries" style="display:grid;grid-gap:1em;grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));margin:2em auto"></div>
+    <div id="chara-entries" class="entries-grid"></div>
+    <h3>Units with only one expression</h3>
+    <div id="one-part-entries" class="entries-grid"></div>
+    <h3>Units with no expressions</h3>
+    <div id="partsless-entries" class="entries-grid"></div>
   </div>
   <div id="editor" style="display:none;min-height:100vh">
     <div style="height:100vh;padding:2em;overflow-y:auto;flex:1 0 415px;max-width:max(415px, 45vw);border-right:1px solid #ccc">
@@ -64,12 +69,22 @@
     }
     function renderAllCharacters(data) {
       const entries = [];
-      for (const entry of data) {
+      const onePartEntries = [];
+      const partlessEntries = [];
+      for (const entry of data['labels']) {
         const id = entry['id'];
         const label = entry['label'];
-        entries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
+        if (data['onepart'].includes(id)) {
+          onePartEntries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
+        } else if (data['partsless'].includes(id)) {
+          partlessEntries.push(`<div class="chara-link"><a href="?${id}">${id}</a>${label}</div>`);
+        } else {
+          entries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
+        }
       }
       document.getElementById('chara-entries').innerHTML = entries.join('');
+      document.getElementById('one-part-entries').innerHTML = onePartEntries.join('');
+      document.getElementById('partsless-entries').innerHTML = partlessEntries.join('');
       toggleMain(true);
     }
     function renderSingleCharacter(id) {
