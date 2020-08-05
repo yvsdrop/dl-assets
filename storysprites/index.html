@@ -42,30 +42,46 @@
     <canvas id="canvas" title="Constructed image can be copied or saved via right-click menu" style="flex:none;align-self:center;margin:0 auto"></canvas>
   </div>
   <div class="nav-icons">
-    <a id="home-link" href="#"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/home/v7/gm_grey-48dp/2x/gm_home_gm_grey_48dp.png"></a>
+    <a id="home-link" href="./"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/home/v7/gm_grey-48dp/2x/gm_home_gm_grey_48dp.png"></a>
     <a href="../about.html"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/info/v9/gm_grey-48dp/2x/gm_info_gm_grey_48dp.png"></a>
   </div>
   <script>
     let base_image, parts_data, part_pos_x, part_pos_y;
-    const homeLink = document.getElementById('home-link');
+    let main_loaded = false;
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
-    let id = window.location.search.substring(1);
-  
-    if (!id) {
-      homeLink.href = '../';
-      fetch('index.json')
-        .then(response => response.json())
-        .then(json => {
-          renderAllCharacters(json);
-        });
-    } else {
-      homeLink.href = './';
-      renderSingleCharacter(id);
-    }
+    onpopstate = navigate;
+    navigate();
+
+    $('#home-link').click(function() {
+      if (!!window.location.search) {
+        history.pushState({}, document.body.title, this.href);
+        navigate();
+      }
+      return false;
+    });
+
     function toggleMain(show) {
       $('#main').toggle(show);
       $('#editor').css('display', show ? 'none' : 'flex');
+    }
+    function navigate() {
+      const id = window.location.search.substring(1);
+      if (!id) {
+        loadMain();
+      } else {
+        renderSingleCharacter(id);
+      }
+    }
+    function loadMain() {
+      toggleMain(true);
+      if (main_loaded) { return; }
+      fetch('index.json')
+        .then(response => response.json())
+        .then(json => {
+          main_loaded = true;
+          renderAllCharacters(json);
+        });
     }
     function renderAllCharacters(data) {
       const entries = [];
@@ -85,7 +101,11 @@
       document.getElementById('chara-entries').innerHTML = entries.join('');
       document.getElementById('one-part-entries').innerHTML = onePartEntries.join('');
       document.getElementById('partsless-entries').innerHTML = partlessEntries.join('');
-      toggleMain(true);
+      $('.chara-link a').click(function() {
+        history.pushState({}, this.href.split('?')[1], this.href);
+        navigate();
+        return false;
+      });
     }
     function renderSingleCharacter(id) {
       fetch(`${id}/index.json`)
