@@ -26,7 +26,7 @@
     <div id="chara-entries" style="display:grid;grid-gap:1em;grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));margin:2em auto"></div>
   </div>
   <div id="editor" style="display:none;min-height:100vh">
-    <div style="height:100vh;padding:2em;overflow-y:auto;flex:1 0 415px;max-width:max(415px, 45vw);border-right:1px solid #ccc;">
+    <div style="height:100vh;padding:2em;overflow-y:auto;flex:1 0 415px;max-width:max(415px, 45vw);border-right:1px solid #ccc">
       <div class="custom-control custom-checkbox custom-control-inline" style="vertical-align:middle">
         <input type="checkbox" id="faceOnlyCheckbox" class="custom-control-input">
         <label class="custom-control-label" for="faceOnlyCheckbox">Hide background</label>
@@ -34,7 +34,7 @@
       <button id="reset-btn" class="btn btn-outline-primary">Reset</button>
       <div id="parts-list" style="display:flex;flex-flow:row wrap;margin:1em -10px 0"></div>
     </div>
-    <canvas id="canvas" style="flex:none;align-self:center;margin:0 auto"></canvas>
+    <canvas id="canvas" title="Constructed image can be copied or saved via right-click menu" style="flex:none;align-self:center;margin:0 auto"></canvas>
   </div>
   <div class="nav-icons">
     <a id="home-link" href="#"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/home/v7/gm_grey-48dp/2x/gm_home_gm_grey_48dp.png"></a>
@@ -48,14 +48,14 @@
     let id = window.location.search.substring(1);
   
     if (!id) {
-      homeLink.href = '../index.html';
+      homeLink.href = '../';
       fetch('index.json')
         .then(response => response.json())
         .then(json => {
           renderAllCharacters(json);
         });
     } else {
-      homeLink.href = 'index.html';
+      homeLink.href = './';
       renderSingleCharacter(id);
     }
     function toggleMain(show) {
@@ -81,32 +81,29 @@
           });
     }
     function renderSingleCharacterInner(id) {
-      // Load canvas element.
-      canvas.width = parts_data['rect']['width'];
-      canvas.height = parts_data['rect']['height'];
       // Construct main content.
       const parts = [];
-      for (const part_id of parts_data['parts']['images']) {
-        parts.push(`<a class="part"><img src="${id}/${id}_parts_c${part_id}.png"></a>`);
+      for (const [part_id, alpha_index] of Object.entries(parts_data['parts']['images']).sort((a, b) => ((a[1] < b[1]) ? -1 : ((a[1] > b[1]) ? 1 : 0)))) {
+        parts.push(`<a class="part" data-index="${alpha_index}"><img title="${part_id}" src="${id}/${id}_parts_c${part_id}.png"></a>`);
       }
       document.getElementById('parts-list').innerHTML = parts.join('');
 
       // Draw the base image onto the canvas.
+      resetDimensions();
       base_image = new Image();
       base_image.onload = reset;
       base_image.src = `${id}/${id}_base.png`;
 
-      // Adjust the position calculations
-      part_pos_x = parts_data['parts']['position']['x'] - parts_data['rect']['x'];
-      part_pos_y = parts_data['parts']['position']['y'] - parts_data['rect']['y'];
-
       $('#faceOnlyCheckbox').click(function() {
-        // Resize canvas.
-        canvas.width = this.checked ? parts_data['parts']['size']['x'] : parts_data['rect']['width'];
-        canvas.height = this.checked ? parts_data['parts']['size']['y'] : parts_data['rect']['height'];
+        resetDimensions();
         redraw();
       });
       $('.part').click(function() {
+        // When a part is selected, deselect all other parts that have the same
+        // alpha index. These are guaranteed to be mutually exclusive parts.
+        if (!this.classList.contains('selected')) {
+          $(`.selected[data-index="${this.dataset['index']}"]`).removeClass('selected');
+        }
         $(this).toggleClass('selected');
         redraw();
       });
@@ -118,21 +115,32 @@
       });
       toggleMain(false);
     }
+    function resetDimensions() {
+      if ($('#faceOnlyCheckbox').prop('checked')) {
+        canvas.width = parts_data['parts']['size']['x'];
+        canvas.height = parts_data['parts']['size']['y'];
+        part_pos_x = 0;
+        part_pos_y = 0;
+      } else {
+        canvas.width = parts_data['rect']['width'];
+        canvas.height = parts_data['rect']['height'];
+        part_pos_x = parts_data['parts']['position']['x'];
+        part_pos_y = parts_data['parts']['position']['y'];
+      }
+    }
     function reset() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       if (!$('#faceOnlyCheckbox').prop('checked')) {
-        ctx.drawImage(base_image, -parts_data['rect']['x'], -parts_data['rect']['y']);
+        ctx.drawImage(base_image, 0, 0);
       }
     }
     function redraw() {
       reset();
       const cropToFace = $('#faceOnlyCheckbox').prop('checked');
-      const pos_x = cropToFace ? 0 : part_pos_x;
-      const pos_y = cropToFace ? 0 : part_pos_y;
       const selected = $('.selected');
       if (selected.length) {
         selected.each(function() {
-          ctx.drawImage(this.firstChild, pos_x, pos_y);
+          ctx.drawImage(this.firstChild, part_pos_x, part_pos_y);
         });
       } else if (cropToFace) {
         ctx.fillStyle = '#eee';
