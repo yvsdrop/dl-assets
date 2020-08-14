@@ -1909,7 +1909,7 @@
 },
 {
 "id": "120138_01",
-"label": ""
+"label": "Pop-Star Siren"
 },
 {
 "id": "120139_01",
@@ -2458,6 +2458,22 @@
 {
 "id": "210088_01",
 "label": ""
+},
+{
+"id": "110281_02",
+"label": "Yukata Curran"
+},
+{
+"id": "110337_03",
+"label": "Yukata Cassandra"
+},
+{
+"id": "110337_04",
+"label": "Yukata Cassandra"
+},
+{
+"id": "110349_03",
+"label": "Yukata Lathna"
 }],
 "onepart": [
 "210058_01",
