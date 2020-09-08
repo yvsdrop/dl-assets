@@ -128,7 +128,9 @@
         parts_data['parts'] = [parts_data['parts']];
       }
       parts_data['parts'].forEach((part_data, index) => {
-        console.log(index);
+        if (index > 0) {
+          parts.push('<hr style="width:100%">');
+        }
         for (const [part_id, alpha_index] of Object.entries(part_data['images']).sort((a, b) => ((a[1] < b[1]) ? -1 : ((a[1] > b[1]) ? 1 : 0)))) {
           parts.push(`<a class="part" data-index="${alpha_index}" data-part-index="${index}"><img title="${part_id}" src="${id}/${id}_parts_c${part_id}.png"></a>`);
         }
