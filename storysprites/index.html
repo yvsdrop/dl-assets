@@ -46,7 +46,7 @@
     <a href="../about.html"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/info/v9/gm_grey-48dp/2x/gm_info_gm_grey_48dp.png"></a>
   </div>
   <script>
-    let base_image, parts_data, part_pos_x, part_pos_y;
+    let base_image, parts_data;
     let main_loaded = false;
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
@@ -122,9 +122,17 @@
     function renderSingleCharacterInner(id) {
       // Construct main content.
       const parts = [];
-      for (const [part_id, alpha_index] of Object.entries(parts_data['parts']['images']).sort((a, b) => ((a[1] < b[1]) ? -1 : ((a[1] > b[1]) ? 1 : 0)))) {
-        parts.push(`<a class="part" data-index="${alpha_index}"><img title="${part_id}" src="${id}/${id}_parts_c${part_id}.png"></a>`);
+      if (!Array.isArray(parts_data['parts'])) {
+        // I don't feel like regenning all the data to support the multi-part update,
+        // so just back compat it here.
+        parts_data['parts'] = [parts_data['parts']];
       }
+      parts_data['parts'].forEach((part_data, index) => {
+        console.log(index);
+        for (const [part_id, alpha_index] of Object.entries(part_data['images']).sort((a, b) => ((a[1] < b[1]) ? -1 : ((a[1] > b[1]) ? 1 : 0)))) {
+          parts.push(`<a class="part" data-index="${alpha_index}" data-part-index="${index}"><img title="${part_id}" src="${id}/${id}_parts_c${part_id}.png"></a>`);
+        }
+      });
       document.getElementById('parts-list').innerHTML = parts.join('');
 
       // Draw the base image onto the canvas.
@@ -139,9 +147,9 @@
       });
       $('.part').click(function() {
         // When a part is selected, deselect all other parts that have the same
-        // alpha index. These are guaranteed to be mutually exclusive parts.
+        // part and alpha index. These are guaranteed to be mutually exclusive parts.
         if (!this.classList.contains('selected')) {
-          $(`.selected[data-index="${this.dataset['index']}"]`).removeClass('selected');
+          $(`.selected[data-part-index="${this.dataset['partIndex']}"][data-index="${this.dataset['index']}"]`).removeClass('selected');
         }
         $(this).toggleClass('selected');
         redraw();
@@ -156,15 +164,11 @@
     }
     function resetDimensions() {
       if ($('#faceOnlyCheckbox').prop('checked')) {
-        canvas.width = parts_data['parts']['size']['x'];
-        canvas.height = parts_data['parts']['size']['y'];
-        part_pos_x = 0;
-        part_pos_y = 0;
+        canvas.width = parts_data['parts'][0]['size']['x'];
+        canvas.height = parts_data['parts'][0]['size']['y'];
       } else {
         canvas.width = parts_data['rect']['width'];
         canvas.height = parts_data['rect']['height'];
-        part_pos_x = parts_data['parts']['position']['x'];
-        part_pos_y = parts_data['parts']['position']['y'];
       }
     }
     function reset() {
@@ -179,7 +183,10 @@
       const selected = $('.selected');
       if (selected.length) {
         selected.each(function() {
-          ctx.drawImage(this.firstChild, part_pos_x, part_pos_y);
+          const part_pos = cropToFace
+              ? {'x': 0, 'y': 0}
+              : parts_data['parts'][this.dataset['partIndex']]['position'];
+          ctx.drawImage(this.firstChild, part_pos['x'], part_pos['y']);
         });
       } else if (cropToFace) {
         ctx.fillStyle = '#eee';
