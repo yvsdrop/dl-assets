@@ -25,10 +25,10 @@
     <p>I wish I knew. I've tried to programmatically dedupe them as much as possible but since they do all actually have very slight pixel differences, some may have slipped through the differ threshold. Feel free to report those on a case by case basis.</p>
 
     <h4>Why are some of the labels for the characters missing/incorrect?</h4>
-    <p>These are manually entered for the most part. Please feel free to contribute a correction to this <a href="https://github.com/yvsdrop/dl-assets/blob/master/storysprites/index.json">mapping</a>.</p>
+    <p>Some labels require manual entry and are thus subject to human error. Please feel free to contribute a correction to <a href="https://github.com/yvsdrop/dl-assets/blob/master/storysprites/index.json">this mapping</a>.</p>
 
     <h4>Why am I allowed to select invalid expression combinations?</h4>
-    <p>I'd like to improve the input validation, but unfortunately I don't think the necessary expression relations are included in the asset data. If you know otherwise, or have an alternative UX suggestion, however, feel free to discuss it with me at the GitHub link below. (Though on the other hand, some people might find it more fun with the bug in place)</p>
+    <p>Mouth/face combinations are not actually deterministically available in the data, so I'm using a basic heuristic to divide them, and it might capture some false negatives. If you notice an incorrect combo, feel free to report it at the GitHub link below.</p>
 
     <h4>Any other concerns or feedback</h4>
     <p>Contact me through <a href="https://github.com/yvsdrop/dl-assets/issues">GitHub</a>.</p>

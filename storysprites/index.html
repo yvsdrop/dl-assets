@@ -89,9 +89,9 @@
       const entries = [];
       const onePartEntries = [];
       const partlessEntries = [];
-      for (const entry of data['labels']) {
-        const id = entry['id'];
-        const label = entry['label'];
+      for (const id in data['labels']) {
+        const labels = data['labels'][id];
+        const label = labels['en_us'];
         if (data['onepart'].includes(id)) {
           onePartEntries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
         } else if (data['partsless'].includes(id)) {
