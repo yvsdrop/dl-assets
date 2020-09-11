@@ -6,8 +6,9 @@
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <style>
-    .nav-icons {position:absolute;top:1em;right:1em}
+    .nav-icons {display:flex;align-items:center;position:absolute;top:1em;right:1em}
     .nav-icons img {height:24px}
+    .github-commit-time {color: var(--secondary);font-size: smaller;}
     .entries-grid {display:grid;grid-gap:1em;grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));margin:2em auto}
     .chara-link a {display:block}
     .chara-link img {width:80px;height:80px}
@@ -17,6 +18,7 @@
     .part img {border-radius:4px;max-width:100px}
   </style>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="github.min.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174467306-1"></script>
   <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-174467306-1');</script>
   <title>Dragalia Story Sprites</title>
@@ -24,6 +26,7 @@
 <body>
   <div id="main" class="container" style="display:none;margin-top:2em;text-align:center">
     <h2>Dragalia Lost Story Sprites</h2>
+    <strong>Latest update:</strong> <span id="latestCommit"></span>
     <div id="chara-entries" class="entries-grid"></div>
     <h3>Units with only one expression</h3>
     <div id="one-part-entries" class="entries-grid"></div>
@@ -42,11 +45,17 @@
     <canvas id="canvas" title="Constructed image can be copied or saved via right-click menu" style="flex:none;align-self:center;margin:0 auto"></canvas>
   </div>
   <div class="nav-icons">
+    <select class="form-control" id="localeSelect" style="display:none;margin-right:1em">
+      <option value="en_us">English</option>
+      <option value="ja_jp">日本語</option>
+      <option value="zh_cn">简体中文</option>
+      <option value="zh_tw">繁體中文</option>
+    </select>
     <a id="home-link" href="./"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/home/v7/gm_grey-48dp/2x/gm_home_gm_grey_48dp.png"></a>
     <a href="../about.html"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/info/v9/gm_grey-48dp/2x/gm_info_gm_grey_48dp.png"></a>
   </div>
   <script>
-    let base_image, parts_data;
+    let main_data, base_image, parts_data;
     let main_loaded = false;
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
@@ -62,8 +71,12 @@
         return false;
       }
     });
+    $('#localeSelect').change(function() {
+      renderAllCharacters();
+    });
 
     function toggleMain(show) {
+      $('#localeSelect').toggle(show);
       $('#main').toggle(show);
       $('#editor').css('display', show ? 'none' : 'flex');
     }
@@ -81,20 +94,23 @@
       fetch('index.json')
         .then(response => response.json())
         .then(json => {
+          main_data = json;
           main_loaded = true;
-          renderAllCharacters(json);
-        });
+          renderAllCharacters();
+          $('#latestCommit').githubInfoWidget(
+            {user: 'yvsdrop', repo: 'dl-assets', branch: 'master'});
+          });
     }
-    function renderAllCharacters(data) {
+    function renderAllCharacters() {
       const entries = [];
       const onePartEntries = [];
       const partlessEntries = [];
-      for (const id in data['labels']) {
-        const labels = data['labels'][id];
-        const label = labels['en_us'];
-        if (data['onepart'].includes(id)) {
+      for (const id in main_data['labels']) {
+        const labels = main_data['labels'][id];
+        const label = labels[$('#localeSelect').val()] || labels['en_us'];
+        if (main_data['onepart'].includes(id)) {
           onePartEntries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
-        } else if (data['partsless'].includes(id)) {
+        } else if (main_data['partsless'].includes(id)) {
           partlessEntries.push(`<div class="chara-link"><a href="?${id}">${id}</a>${label}</div>`);
         } else {
           entries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
