@@ -138,17 +138,14 @@
     function renderSingleCharacterInner(id) {
       // Construct main content.
       const parts = [];
-      if (!Array.isArray(parts_data['parts'])) {
-        // I don't feel like regenning all the data to support the multi-part update,
-        // so just back compat it here.
-        parts_data['parts'] = [parts_data['parts']];
-      }
       parts_data['parts'].forEach((part_data, index) => {
         if (index > 0) {
           parts.push('<hr style="width:100%">');
         }
-        for (const [part_id, alpha_index] of Object.entries(part_data['images']).sort((a, b) => ((a[1] < b[1]) ? -1 : ((a[1] > b[1]) ? 1 : 0)))) {
-          parts.push(`<a class="part" data-index="${alpha_index}" data-part-index="${index}"><img title="${part_id}" src="${id}/${id}_parts_c${part_id}.png"></a>`);
+        for (const group_index in part_data['images']) {
+          for (const part_id of part_data['images'][group_index].sort()) {
+            parts.push(`<a class="part" data-index="${group_index}" data-part-index="${index}"><img title="${part_id}" src="${id}/${id}_parts_c${part_id}.png"></a>`);
+          }
         }
       });
       document.getElementById('parts-list').innerHTML = parts.join('');
