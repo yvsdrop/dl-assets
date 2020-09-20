@@ -113,7 +113,7 @@
         } else if (main_data['partsless'].includes(id)) {
           partlessEntries.push(`<div class="chara-link"><a href="?${id}">${id}</a>${label}</div>`);
         } else {
-          entries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
+          entries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}.png">${id}</a>${label}</div>`);
         }
       }
       document.getElementById('chara-entries').innerHTML = entries.join('');
