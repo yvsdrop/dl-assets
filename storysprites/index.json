@@ -4,427 +4,498 @@
    "en_us": "The Prince",
    "ja_jp": "主人公",
    "zh_cn": "主人公",
-   "zh_tw": "主角"
+   "zh_tw": "主角",
+   "added": "2018/09/27"
   },
   "100001_03": {
    "en_us": "The Prince (Summer)",
    "ja_jp": "ユーディル",
    "zh_cn": "尤蒂尔（夏日)",
-   "zh_tw": "尤帝爾"
+   "zh_tw": "尤帝爾",
+   "added": "2018/09/27"
   },
   "100001_04": {
    "en_us": "The Prince (New Year)",
    "ja_jp": "ユーディル",
    "zh_cn": "尤蒂尔（新年)",
-   "zh_tw": "尤帝爾"
+   "zh_tw": "尤帝爾",
+   "added": "2018/09/27"
   },
   "100001_05": {
    "en_us": "The Prince (Injured)",
    "ja_jp": "ユーディル",
    "zh_cn": "尤蒂尔（战损)",
-   "zh_tw": "尤帝爾"
+   "zh_tw": "尤帝爾",
+   "added": "2018/09/27"
   },
   "100001_06": {
    "en_us": "The Prince (Injured)",
    "ja_jp": "ユーディル",
    "zh_cn": "尤蒂尔（战损)",
-   "zh_tw": "尤帝爾"
+   "zh_tw": "尤帝爾",
+   "added": "2018/09/27"
   },
   "100001_07": {
    "en_us": "The Prince",
    "ja_jp": "ユーディル",
    "zh_cn": "尤蒂尔",
-   "zh_tw": "尤帝爾"
+   "zh_tw": "尤帝爾",
+   "added": "2018/09/27"
   },
   "100001_08": {
    "en_us": "Gala Prince",
    "ja_jp": "主人公（ドラフェスVer.）",
    "zh_cn": "主人公（Fes限定Ver.）",
-   "zh_tw": "主角（龍絆日Ver.）"
+   "zh_tw": "主角（龍絆日Ver.）",
+   "added": "2018/09/27"
   },
   "100001_09": {
    "en_us": "The Prince (Gala)",
    "ja_jp": "ユーディル",
    "zh_cn": "尤蒂尔（Fes)",
-   "zh_tw": "尤帝爾"
+   "zh_tw": "尤帝爾",
+   "added": "2018/09/27"
   },
   "100001_10": {
    "en_us": "The Prince (Evil)",
    "ja_jp": "ユーディル",
    "zh_cn": "尤蒂尔（魔神)",
-   "zh_tw": "尤帝爾"
+   "zh_tw": "尤帝爾",
+   "added": "2018/09/27"
   },
   "100002_01": {
    "en_us": "Elisanne",
    "ja_jp": "エルフィリス",
    "zh_cn": "埃尔菲莉丝",
-   "zh_tw": "耶魯菲莉絲"
+   "zh_tw": "耶魯菲莉絲",
+   "added": "2018/09/27"
   },
   "100002_02": {
    "en_us": "Halloween Elisanne",
    "ja_jp": "エルフィリス（ハロウィンVer.）",
    "zh_cn": "埃尔菲莉丝（万圣节Ver.）",
-   "zh_tw": "耶魯菲莉絲（萬聖節Ver.）"
+   "zh_tw": "耶魯菲莉絲（萬聖節Ver.）",
+   "added": "2018/09/27"
   },
   "100002_04": {
    "en_us": "Elisanne (Child)",
    "ja_jp": "エルフィリス",
    "zh_cn": "埃尔菲莉丝（童年)",
-   "zh_tw": "耶魯菲莉絲"
+   "zh_tw": "耶魯菲莉絲",
+   "added": "2018/09/27"
   },
   "100002_05": {
    "en_us": "Elisanne (Valentines)",
    "ja_jp": "エルフィリス",
    "zh_cn": "埃尔菲莉丝（情人节)",
-   "zh_tw": "耶魯菲莉絲"
+   "zh_tw": "耶魯菲莉絲",
+   "added": "2018/09/27"
   },
   "100002_06": {
    "en_us": "Wedding Elisanne",
    "ja_jp": "エルフィリス（ウエディングVer.）",
    "zh_cn": "埃尔菲莉丝（新娘Ver.）",
-   "zh_tw": "耶魯菲莉絲（花嫁Ver.）"
+   "zh_tw": "耶魯菲莉絲（花嫁Ver.）",
+   "added": "2018/09/27"
   },
   "100002_07": {
    "en_us": "Elisanne (Summer)",
    "ja_jp": "エルフィリス",
    "zh_cn": "埃尔菲莉丝（夏日)",
-   "zh_tw": "耶魯菲莉絲"
+   "zh_tw": "耶魯菲莉絲",
+   "added": "2018/09/27"
   },
   "100002_09": {
    "en_us": "Elisanne (Halloween)",
    "ja_jp": "エルフィリス",
    "zh_cn": "埃尔菲莉丝（万圣节)",
-   "zh_tw": "耶魯菲莉絲"
+   "zh_tw": "耶魯菲莉絲",
+   "added": "2018/09/27"
   },
   "100002_10": {
    "en_us": "Elisanne (New Year)",
    "ja_jp": "エルフィリス",
    "zh_cn": "埃尔菲莉丝（新年)",
-   "zh_tw": "耶魯菲莉絲"
+   "zh_tw": "耶魯菲莉絲",
+   "added": "2018/09/27"
   },
   "100002_11": {
    "en_us": "Elisanne (Injured)",
    "ja_jp": "エルフィリス",
    "zh_cn": "埃尔菲莉丝（战损)",
-   "zh_tw": "耶魯菲莉絲"
+   "zh_tw": "耶魯菲莉絲",
+   "added": "2018/09/27"
   },
   "100002_12": {
    "en_us": "Elisanne (Injured)",
    "ja_jp": "エルフィリス",
    "zh_cn": "埃尔菲莉丝（战损)",
-   "zh_tw": "耶魯菲莉絲"
+   "zh_tw": "耶魯菲莉絲",
+   "added": "2018/09/27"
   },
   "100002_13": {
    "en_us": "Gala Elisanne",
    "ja_jp": "エルフィリス（ドラフェスVer.）",
    "zh_cn": "埃尔菲莉丝（Fes限定Ver.）",
-   "zh_tw": "耶魯菲莉絲（龍絆日Ver.）"
+   "zh_tw": "耶魯菲莉絲（龍絆日Ver.）",
+   "added": "2018/09/27"
   },
   "100002_14": {
    "en_us": "Elisanne (Summer)",
    "ja_jp": "エルフィリス",
    "zh_cn": "埃尔菲莉丝（夏日)",
-   "zh_tw": "耶魯菲莉絲"
+   "zh_tw": "耶魯菲莉絲",
+   "added": "2018/09/27"
   },
   "100003_01": {
    "en_us": "Ranzal",
    "ja_jp": "ランザーヴ",
    "zh_cn": "兰扎卜",
-   "zh_tw": "蘭薩弗"
+   "zh_tw": "蘭薩弗",
+   "added": "2018/09/27"
   },
   "100003_02": {
    "en_us": "Summer Ranzal",
    "ja_jp": "ランザーヴ（サマーVer.）",
    "zh_cn": "兰扎卜（夏日Ver.）",
-   "zh_tw": "蘭薩弗（夏日Ver.）"
+   "zh_tw": "蘭薩弗（夏日Ver.）",
+   "added": "2018/09/27"
   },
   "100003_03": {
    "en_us": "Ranzal (Normal)",
    "ja_jp": "ランザーヴ",
    "zh_cn": "兰扎卜（通常)",
-   "zh_tw": "蘭薩弗"
+   "zh_tw": "蘭薩弗",
+   "added": "2018/09/27"
   },
   "100003_04": {
    "en_us": "Ranzal (Summer)",
    "ja_jp": "ランザーヴ",
    "zh_cn": "兰扎卜（夏日)",
-   "zh_tw": "蘭薩弗"
+   "zh_tw": "蘭薩弗",
+   "added": "2018/09/27"
   },
   "100003_05": {
    "en_us": "Ranzal (New Year)",
    "ja_jp": "ランザーヴ",
    "zh_cn": "兰扎卜（新年)",
-   "zh_tw": "蘭薩弗"
+   "zh_tw": "蘭薩弗",
+   "added": "2018/09/27"
   },
   "100003_07": {
    "en_us": "Gala Ranzal",
    "ja_jp": "ランザーヴ（ドラフェスVer.）",
    "zh_cn": "兰扎卜（Fes限定Ver.）",
-   "zh_tw": "蘭薩弗（龍絆日Ver.）"
+   "zh_tw": "蘭薩弗（龍絆日Ver.）",
+   "added": "2018/09/27"
   },
   "100003_08": {
    "en_us": "Ranzal (Gala Normal)",
    "ja_jp": "ランザーヴ",
    "zh_cn": "兰扎卜（Fes通常)",
-   "zh_tw": "蘭薩弗"
+   "zh_tw": "蘭薩弗",
+   "added": "2018/09/27"
   },
   "100003_09": {
    "en_us": "Ranzal (Injured)",
    "ja_jp": "ランザーヴ",
    "zh_cn": "兰扎卜（战损)",
-   "zh_tw": "蘭薩弗"
+   "zh_tw": "蘭薩弗",
+   "added": "2018/09/27"
   },
   "100004_01": {
    "en_us": "Cleo",
    "ja_jp": "クラウ",
    "zh_cn": "库菈乌",
-   "zh_tw": "克菈兒"
+   "zh_tw": "克菈兒",
+   "added": "2018/09/27"
   },
   "100004_02": {
    "en_us": "Dragonyule Cleo",
    "ja_jp": "クラウ（星竜祭Ver.）",
    "zh_cn": "库菈乌（星龙祭Ver.）",
-   "zh_tw": "克菈兒（星龍祭Ver.）"
+   "zh_tw": "克菈兒（星龍祭Ver.）",
+   "added": "2018/09/27"
   },
   "100004_03": {
    "en_us": "Cleo (Valentines)",
    "ja_jp": "クラウ",
    "zh_cn": "库菈乌（情人节)",
-   "zh_tw": "克菈兒"
+   "zh_tw": "克菈兒",
+   "added": "2018/09/27"
   },
   "100004_06": {
    "en_us": "Cleo (Dress)",
    "ja_jp": "クラウ",
    "zh_cn": "库菈乌（礼服)",
-   "zh_tw": "克菈兒"
+   "zh_tw": "克菈兒",
+   "added": "2018/09/27"
   },
   "100004_08": {
    "en_us": "Cleo (Dress)",
    "ja_jp": "クラウ",
    "zh_cn": "库菈乌（礼服)",
-   "zh_tw": "克菈兒"
+   "zh_tw": "克菈兒",
+   "added": "2018/09/27"
   },
   "100004_09": {
    "en_us": "Cleo (New Year)",
    "ja_jp": "クラウ",
    "zh_cn": "库菈乌（新年)",
-   "zh_tw": "克菈兒"
+   "zh_tw": "克菈兒",
+   "added": "2018/09/27"
   },
   "100004_10": {
    "en_us": "Gala Cleo",
    "ja_jp": "クラウ（ドラフェスVer.）",
    "zh_cn": "库菈乌（Fes限定Ver.）",
-   "zh_tw": "克菈兒（龍絆日Ver.）"
+   "zh_tw": "克菈兒（龍絆日Ver.）",
+   "added": "2018/09/27"
   },
   "100004_11": {
    "en_us": "Cleo (Gala Normal)",
    "ja_jp": "クラウ",
    "zh_cn": "库菈乌（Fes通常)",
-   "zh_tw": "克菈兒"
+   "zh_tw": "克菈兒",
+   "added": "2018/09/27"
   },
   "100004_12": {
    "en_us": "Cleo (Injured)",
    "ja_jp": "クラウ",
    "zh_cn": "库菈乌（战损)",
-   "zh_tw": "克菈兒"
+   "zh_tw": "克菈兒",
+   "added": "2018/09/27"
   },
   "100004_13": {
    "en_us": "Cleo (Summer)",
    "ja_jp": "クラウ",
    "zh_cn": "库菈乌（夏日)",
-   "zh_tw": "克菈兒"
+   "zh_tw": "克菈兒",
+   "added": "2018/09/27"
   },
   "100004_14": {
    "en_us": "Cleo (Summer)",
    "ja_jp": "クラウ",
    "zh_cn": "库菈乌（夏日)",
-   "zh_tw": "克菈兒"
+   "zh_tw": "克菈兒",
+   "added": "2018/09/27"
   },
   "100004_15": {
    "en_us": "Cleo (Cleaning)",
    "ja_jp": "クラウ",
    "zh_cn": "库菈乌（大扫除)",
-   "zh_tw": "克菈兒"
+   "zh_tw": "克菈兒",
+   "added": "2018/09/27"
   },
   "100004_16": {
    "en_us": "Cleo (Cleaning)",
    "ja_jp": "クラウ",
    "zh_cn": "库菈乌（大扫除)",
-   "zh_tw": "克菈兒"
+   "zh_tw": "克菈兒",
+   "added": "2018/09/27"
   },
   "100005_01": {
    "en_us": "Alex",
    "ja_jp": "シャノン",
    "zh_cn": "沙音",
-   "zh_tw": "夏儂"
+   "zh_tw": "夏儂",
+   "added": "2018/09/27"
   },
   "100005_02": {
    "en_us": "Gala Alex",
    "ja_jp": "シャノン（ドラフェスVer.）",
    "zh_cn": "沙音（Fes限定Ver.）",
-   "zh_tw": "夏儂（龍絆日Ver.）"
+   "zh_tw": "夏儂（龍絆日Ver.）",
+   "added": "2018/09/27"
   },
   "100005_03": {
    "en_us": "Alex (Child)",
    "ja_jp": "シャノン",
    "zh_cn": "沙音（童年)",
-   "zh_tw": "夏儂"
+   "zh_tw": "夏儂",
+   "added": "2018/09/27"
   },
   "100005_04": {
    "en_us": "Alex (Church)",
    "ja_jp": "シャノン",
    "zh_cn": "沙音（教会)",
-   "zh_tw": "夏儂"
+   "zh_tw": "夏儂",
+   "added": "2018/09/27"
   },
   "100005_05": {
    "en_us": "Alex (Normal)",
    "ja_jp": "シャノン",
    "zh_cn": "沙音（通常)",
-   "zh_tw": "夏儂"
+   "zh_tw": "夏儂",
+   "added": "2018/09/27"
   },
   "100005_06": {
    "en_us": "Alex (Injured)",
    "ja_jp": "シャノン",
    "zh_cn": "沙音（战损)",
-   "zh_tw": "夏儂"
+   "zh_tw": "夏儂",
+   "added": "2018/09/27"
   },
   "100005_07": {
    "en_us": "Alex (Injured)",
    "ja_jp": "シャノン",
    "zh_cn": "沙音（战损)",
-   "zh_tw": "夏儂"
+   "zh_tw": "夏儂",
+   "added": "2018/09/27"
   },
   "100006_01": {
    "en_us": "Luca",
    "ja_jp": "リュカ",
    "zh_cn": "卢卡",
-   "zh_tw": "琉卡"
+   "zh_tw": "琉卡",
+   "added": "2018/09/27"
   },
   "100006_03": {
    "en_us": "Summer Luca",
    "ja_jp": "リュカ（サマーVer.）",
    "zh_cn": "卢卡（夏日Ver.）",
-   "zh_tw": "琉卡（夏日Ver.）"
+   "zh_tw": "琉卡（夏日Ver.）",
+   "added": "2018/09/27"
   },
   "100006_04": {
    "en_us": "Luca (Injured)",
    "ja_jp": "リュカ",
    "zh_cn": "卢卡（战损)",
-   "zh_tw": "琉卡"
+   "zh_tw": "琉卡",
+   "added": "2018/09/27"
   },
   "100006_05": {
    "en_us": "Luca (Badly Injured)",
    "ja_jp": "リュカ",
    "zh_cn": "卢卡（重伤)",
-   "zh_tw": "琉卡"
+   "zh_tw": "琉卡",
+   "added": "2018/09/27"
   },
   "100006_06": {
    "en_us": "Luca (New Year)",
    "ja_jp": "リュカ",
    "zh_cn": "卢卡（新年)",
-   "zh_tw": "琉卡"
+   "zh_tw": "琉卡",
+   "added": "2018/09/27"
   },
   "100006_07": {
    "en_us": "Luca (Injured)",
    "ja_jp": "リュカ",
    "zh_cn": "卢卡（战损)",
-   "zh_tw": "琉卡"
+   "zh_tw": "琉卡",
+   "added": "2018/09/27"
   },
   "100006_08": {
    "en_us": "Luca (Summer Normal)",
    "ja_jp": "リュカ",
    "zh_cn": "卢卡（夏日通常)",
-   "zh_tw": "琉卡"
+   "zh_tw": "琉卡",
+   "added": "2018/09/27"
   },
   "100006_09": {
    "en_us": "Gala Luca",
    "ja_jp": "リュカ（ドラフェスVer.）",
    "zh_cn": "卢卡（Fes限定Ver.）",
-   "zh_tw": "琉卡（龍絆日Ver.）"
+   "zh_tw": "琉卡（龍絆日Ver.）",
+   "added": "2018/09/27"
   },
   "100006_10": {
    "en_us": "Luca (Gala Normal)",
    "ja_jp": "リュカ",
    "zh_cn": "卢卡（Fes通常)",
-   "zh_tw": "琉卡"
+   "zh_tw": "琉卡",
+   "added": "2018/09/27"
   },
   "100007_01": {
    "en_us": "Notte",
    "ja_jp": "ナーム",
    "zh_cn": "纳姆",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100007_02": {
    "en_us": "Notte (Fat)",
    "ja_jp": "ナーム",
    "zh_cn": "纳姆（胖)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100007_03": {
    "en_us": "Notte (New Year)",
    "ja_jp": "ナーム",
    "zh_cn": "纳姆（新年)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100007_06": {
    "en_us": "Notte (Summer)",
    "ja_jp": "ナーム",
    "zh_cn": "纳姆（夏日)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100008_01": {
    "en_us": "Nina",
    "ja_jp": "ニーナ",
    "zh_cn": "妮娜",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100008_02": {
    "en_us": "Nina (Summer)",
    "ja_jp": "ニーナ",
    "zh_cn": "妮娜（夏日)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100009_01": {
    "en_us": "Zethia",
    "ja_jp": "ゼシア",
    "zh_cn": "塞西娅",
-   "zh_tw": "潔西雅"
+   "zh_tw": "潔西雅",
+   "added": "2018/09/27"
   },
   "100009_02": {
    "en_us": "Zethia (Otherworld)",
    "ja_jp": "ゼシア",
    "zh_cn": "塞西娅（异界)",
-   "zh_tw": "潔西雅"
+   "zh_tw": "潔西雅",
+   "added": "2018/09/27"
   },
   "100009_03": {
    "en_us": "Zethia (Otherworld)",
    "ja_jp": "ゼシア",
    "zh_cn": "塞西娅（异界)",
-   "zh_tw": "潔西雅"
+   "zh_tw": "潔西雅",
+   "added": "2018/09/27"
   },
   "100009_04": {
    "en_us": "Zethia (Otherworld)",
    "ja_jp": "ゼシア",
    "zh_cn": "塞西娅（异界)",
-   "zh_tw": "潔西雅"
+   "zh_tw": "潔西雅",
+   "added": "2018/09/27"
   },
   "100009_05": {
    "en_us": "Zethia (Otherworld)",
    "ja_jp": "ゼシア",
    "zh_cn": "塞西娅（异界)",
-   "zh_tw": "潔西雅"
+   "zh_tw": "潔西雅",
+   "added": "2018/09/27"
   },
   "100009_06": {
    "en_us": "Zethia (Evil)",
    "ja_jp": "ゼシア",
    "zh_cn": "塞西娅（魔神)",
-   "zh_tw": "潔西雅"
+   "zh_tw": "潔西雅",
+   "added": "2018/09/27"
   },
   "100009_07": {
    "en_us": "Zena",
    "ja_jp": "ゼーナ",
    "zh_cn": "泽娜",
-   "zh_tw": "潔那"
+   "zh_tw": "潔那",
+   "added": "2018/09/27"
   },
   "100009_08": {
    "en_us": "Gala Zena",
@@ -437,211 +508,246 @@
    "en_us": "Mym",
    "ja_jp": "ムム",
    "zh_cn": "穆穆",
-   "zh_tw": "慕慕"
+   "zh_tw": "慕慕",
+   "added": "2018/09/27"
   },
   "100010_04": {
    "en_us": "Gala Mym",
    "ja_jp": "ムム（ドラフェスVer.）",
    "zh_cn": "穆穆（Fes限定Ver.）",
-   "zh_tw": "慕慕（龍絆日Ver.）"
+   "zh_tw": "慕慕（龍絆日Ver.）",
+   "added": "2018/09/27"
   },
   "100010_05": {
    "en_us": "Mym (Normal)",
    "ja_jp": "ムム",
    "zh_cn": "穆穆（通常)",
-   "zh_tw": "慕慕"
+   "zh_tw": "慕慕",
+   "added": "2018/09/27"
   },
   "100010_06": {
    "en_us": "Mym (New Years)",
    "ja_jp": "ムム",
    "zh_cn": "穆穆（新年)",
-   "zh_tw": "慕慕"
+   "zh_tw": "慕慕",
+   "added": "2018/09/27"
   },
   "100010_07": {
    "en_us": "Halloween Mym",
    "ja_jp": "ムム（ハロウィンVer.）",
    "zh_cn": "穆穆（万圣节Ver.）",
-   "zh_tw": "慕慕（萬聖節Ver.）"
+   "zh_tw": "慕慕（萬聖節Ver.）",
+   "added": "2018/09/27"
   },
   "100010_08": {
    "en_us": "Mym (Injured)",
    "ja_jp": "ムム",
    "zh_cn": "穆穆（战损)",
-   "zh_tw": "慕慕"
+   "zh_tw": "慕慕",
+   "added": "2018/09/27"
   },
   "100010_09": {
    "en_us": "Mym (Injured)",
    "ja_jp": "ムム",
    "zh_cn": "穆穆（战损)",
-   "zh_tw": "慕慕"
+   "zh_tw": "慕慕",
+   "added": "2018/09/27"
   },
   "100012_01": {
    "en_us": "Aurelius (Evil)",
    "ja_jp": "アローラス",
    "zh_cn": "亚罗拉斯（魔神)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100012_02": {
    "en_us": "Aurelius",
    "ja_jp": "アローラス",
    "zh_cn": "亚罗拉斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100012_03": {
    "en_us": "Aurelius (Evil) & Zethia",
    "ja_jp": "アローラス",
    "zh_cn": "亚罗拉斯（魔神）&塞西娅",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100012_04": {
    "en_us": "Aurelius (Evil)",
    "ja_jp": "アローラス",
    "zh_cn": "亚罗拉斯（魔神)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100013_01": {
    "en_us": "Leonidas",
    "ja_jp": "レオニード",
    "zh_cn": "莱昂尼多",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100013_02": {
    "en_us": "Leonidas (Normal)",
    "ja_jp": "レオニード",
    "zh_cn": "莱昂尼多（通常)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100013_03": {
    "en_us": "Leonidas (Normal)",
    "ja_jp": "レオニード",
    "zh_cn": "莱昂尼多（通常)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100014_01": {
    "en_us": "Phares",
    "ja_jp": "ファルエス",
    "zh_cn": "法尔艾斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100014_02": {
    "en_us": "Phares",
    "ja_jp": "ファルエス",
    "zh_cn": "法尔艾斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100015_01": {
    "en_us": "Chelle",
    "ja_jp": "シェス",
    "zh_cn": "谢斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100015_02": {
    "en_us": "Chelle",
    "ja_jp": "シェス",
    "zh_cn": "谢斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100015_03": {
    "en_us": "Chelle (Ancient Material)",
    "ja_jp": "シェス",
    "zh_cn": "谢斯（远古材料)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100016_01": {
    "en_us": "Valyx",
    "ja_jp": "ヴァルクス",
    "zh_cn": "巴尔库斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100016_02": {
    "en_us": "Valyx (Mask)",
    "ja_jp": "",
    "zh_cn": "巴尔库斯（面具)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2020/08/18"
   },
   "100017_01": {
    "en_us": "Emile",
    "ja_jp": "エミュール",
    "zh_cn": "艾缪尔",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100017_02": {
    "en_us": "Emile (Angry)",
    "ja_jp": "エミュール",
    "zh_cn": "艾缪尔（怒)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100018_01": {
    "en_us": "Leif",
    "ja_jp": "リーフ",
    "zh_cn": "利弗",
-   "zh_tw": "李弗"
+   "zh_tw": "李弗",
+   "added": "2018/09/27"
   },
   "100018_02": {
    "en_us": "Gala Leif",
    "ja_jp": "リーフ（ドラフェスVer.）",
    "zh_cn": "利弗（Fes限定Ver.）",
-   "zh_tw": "李弗（龍絆日Ver.）"
+   "zh_tw": "李弗（龍絆日Ver.）",
+   "added": "2018/09/27"
   },
   "100018_03": {
    "en_us": "Leif (Normal)",
    "ja_jp": "リーフ",
    "zh_cn": "利弗（通常)",
-   "zh_tw": "李弗"
+   "zh_tw": "李弗",
+   "added": "2018/09/27"
   },
   "100018_04": {
    "en_us": "Leif (Back)",
    "ja_jp": "リーフ",
    "zh_cn": "利弗（背)",
-   "zh_tw": "李弗"
+   "zh_tw": "李弗",
+   "added": "2018/09/27"
   },
   "100018_05": {
    "en_us": "Leif (Normal)",
    "ja_jp": "リーフ",
    "zh_cn": "利弗（通常)",
-   "zh_tw": "李弗"
+   "zh_tw": "李弗",
+   "added": "2018/09/27"
   },
   "100019_01": {
    "en_us": "Harle",
    "ja_jp": "ハール",
    "zh_cn": "哈尔",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100023_01": {
    "en_us": "Zacharias",
    "ja_jp": "ザカリアス",
    "zh_cn": "扎卡利亚斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100023_02": {
    "en_us": "Zacharias",
    "ja_jp": "ザカリアス",
    "zh_cn": "扎卡利亚斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100029_01": {
    "en_us": "Sarisse",
    "ja_jp": "シーリス",
    "zh_cn": "希里丝",
-   "zh_tw": "西莉絲"
+   "zh_tw": "西莉絲",
+   "added": "2018/09/27"
   },
   "100029_02": {
    "en_us": "Gala Sarisse",
    "ja_jp": "シーリス（ドラフェスVer.）",
    "zh_cn": "希里丝（Fes限定Ver.）",
-   "zh_tw": "西莉絲（龍絆日Ver.）"
+   "zh_tw": "西莉絲（龍絆日Ver.）",
+   "added": "2018/09/27"
   },
   "100029_03": {
    "en_us": "Hunter Sarisse",
    "ja_jp": "シーリス（ハンターVer.）",
    "zh_cn": "希里丝（猎人Ver.）",
-   "zh_tw": "西莉絲（獵人Ver.）"
+   "zh_tw": "西莉絲（獵人Ver.）",
+   "added": "2018/09/27"
   },
   "100030_01": {
    "en_us": "Morsayati",
    "ja_jp": "モルトメサイア",
    "zh_cn": "莫尔托梅塞亚",
-   "zh_tw": "摩特米塞亞"
+   "zh_tw": "摩特米塞亞",
+   "added": "2018/09/27"
   },
   "100030_04": {
    "en_us": "Morsayati",
@@ -654,1501 +760,1751 @@
    "en_us": "Alberius",
    "ja_jp": "アルベリウス",
    "zh_cn": "阿尔贝琉斯",
-   "zh_tw": "阿尔贝琉斯"
+   "zh_tw": "阿尔贝琉斯",
+   "added": "2018/09/27"
   },
   "100032_01": {
    "en_us": "Laxi",
    "ja_jp": "ラキシ",
    "zh_cn": "莱姬希",
-   "zh_tw": "拉契希"
+   "zh_tw": "拉契希",
+   "added": "2018/09/27"
   },
   "100032_02": {
    "en_us": "Laxi (Out of Control)",
    "ja_jp": "ラキシ",
    "zh_cn": "莱姬希（失控)",
-   "zh_tw": "拉契希"
+   "zh_tw": "拉契希",
+   "added": "2018/09/27"
   },
   "100032_03": {
    "en_us": "Laxi (Normal)",
    "ja_jp": "ラキシ",
    "zh_cn": "莱姬希（通常)",
-   "zh_tw": "拉契希"
+   "zh_tw": "拉契希",
+   "added": "2018/09/27"
   },
   "100032_04": {
    "en_us": "Gala Laxi",
    "ja_jp": "ラキシ（ドラフェスVer.）",
    "zh_cn": "莱姬希（Fes限定Ver.）",
-   "zh_tw": "拉契希（龍絆日Ver.）"
+   "zh_tw": "拉契希（龍絆日Ver.）",
+   "added": "2018/09/27"
   },
   "100032_05": {
    "en_us": "Laxi (Gala)",
    "ja_jp": "ラキシ",
    "zh_cn": "莱姬希（Fes)",
-   "zh_tw": "拉契希"
+   "zh_tw": "拉契希",
+   "added": "2018/09/27"
   },
   "100032_06": {
    "en_us": "Laxi (Gala)",
    "ja_jp": "ラキシ",
    "zh_cn": "莱姬希（Fes)",
-   "zh_tw": "拉契希"
+   "zh_tw": "拉契希",
+   "added": "2018/09/27"
   },
   "100033_01": {
    "en_us": "Volk",
    "ja_jp": "ルヴ・トシュカトル",
    "zh_cn": "卢弗·托修卡特尔",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100034_01": {
    "en_us": "Kai Yan",
    "ja_jp": "ガイエン",
    "zh_cn": "凯严",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100035_01": {
    "en_us": "Ciella",
    "ja_jp": "シェルシエル",
    "zh_cn": "谢希耶尔",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100036_01": {
    "en_us": "Otoha",
    "ja_jp": "オトハ",
    "zh_cn": "乙羽",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100037_01": {
    "en_us": "Ayaha",
    "ja_jp": "アヤハ",
    "zh_cn": "彩羽",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100038_01": {
    "en_us": "Beren",
    "ja_jp": "",
    "zh_cn": "贝维特",
-   "zh_tw": "ベベット"
+   "zh_tw": "ベベット",
+   "added": "2018/09/27"
   },
   "100039_01": {
    "en_us": "Nedrick",
    "ja_jp": "ネデウ",
    "zh_cn": "奈迪犹",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "100041_01": {
    "en_us": "Tartarus",
    "ja_jp": "",
    "zh_cn": "塔耳塔洛斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2020/08/18"
   },
   "110001_01": {
    "en_us": "Alain",
    "ja_jp": "アラン",
    "zh_cn": "阿兰",
-   "zh_tw": "亞倫"
+   "zh_tw": "亞倫",
+   "added": "2018/09/27"
   },
   "110002_01": {
    "en_us": "Aoi",
    "ja_jp": "アオイ",
    "zh_cn": "葵",
-   "zh_tw": "葵"
+   "zh_tw": "葵",
+   "added": "2018/09/27"
   },
   "110002_02": {
    "en_us": "Wedding Aoi",
    "ja_jp": "アオイ（ウエディングVer.）",
    "zh_cn": "葵（新娘Ver.）",
-   "zh_tw": "葵（花嫁Ver.）"
+   "zh_tw": "葵（花嫁Ver.）",
+   "added": "2018/09/27"
   },
   "110003_01": {
    "en_us": "Joe",
    "ja_jp": "ジョー",
    "zh_cn": "乔",
-   "zh_tw": "喬"
+   "zh_tw": "喬",
+   "added": "2018/09/27"
   },
   "110003_02": {
    "en_us": "Sharpshooter Joe",
    "ja_jp": "ジョー（ガンナーVer.）",
    "zh_cn": "乔（铳士Ver.）",
-   "zh_tw": "喬（銃士Ver.）"
+   "zh_tw": "喬（銃士Ver.）",
+   "added": "2020/09/25"
   },
   "110004_01": {
    "en_us": "Xania",
    "ja_jp": "サニア",
    "zh_cn": "桑妮雅",
-   "zh_tw": "莎尼亞"
+   "zh_tw": "莎尼亞",
+   "added": "2018/09/27"
   },
   "110004_02": {
    "en_us": "Wedding Xania",
    "ja_jp": "サニア（ウエディングVer.）",
    "zh_cn": "桑妮雅（新娘Ver.）",
-   "zh_tw": "莎尼亞（花嫁Ver.）"
+   "zh_tw": "莎尼亞（花嫁Ver.）",
+   "added": "2018/09/27"
   },
   "110005_01": {
    "en_us": "Renelle",
    "ja_jp": "ラシーヌ",
    "zh_cn": "拉辛",
-   "zh_tw": "拉辛"
+   "zh_tw": "拉辛",
+   "added": "2018/09/27"
   },
   "110006_01": {
    "en_us": "Aurien",
    "ja_jp": "オーレイン",
    "zh_cn": "欧雷因",
-   "zh_tw": "歐連恩"
+   "zh_tw": "歐連恩",
+   "added": "2018/09/27"
   },
   "110007_01": {
    "en_us": "Vanessa",
    "ja_jp": "ヴァネッサ",
    "zh_cn": "凡妮莎",
-   "zh_tw": "凡妮莎"
+   "zh_tw": "凡妮莎",
+   "added": "2018/09/27"
   },
   "110007_02": {
    "en_us": "Hunter Vanessa",
    "ja_jp": "ヴァネッサ（ハンターVer.）",
    "zh_cn": "凡妮莎（猎人Ver.）",
-   "zh_tw": "凡妮莎（獵人Ver.）"
+   "zh_tw": "凡妮莎（獵人Ver.）",
+   "added": "2018/09/27"
   },
   "110007_03": {
    "en_us": "Vanessa (Hunter)",
    "ja_jp": "ヴァネッサ",
    "zh_cn": "凡妮莎（猎人)",
-   "zh_tw": "凡妮莎"
+   "zh_tw": "凡妮莎",
+   "added": "2018/09/27"
   },
   "110008_01": {
    "en_us": "Karl",
    "ja_jp": "カール",
    "zh_cn": "卡尔",
-   "zh_tw": "卡爾"
+   "zh_tw": "卡爾",
+   "added": "2018/09/27"
   },
   "110009_01": {
    "en_us": "Sinoa",
    "ja_jp": "シノア",
    "zh_cn": "希诺亚",
-   "zh_tw": "筱婭"
+   "zh_tw": "筱婭",
+   "added": "2018/09/27"
   },
   "110009_02": {
    "en_us": "Summer Sinoa",
    "ja_jp": "シノア（サマーVer.）",
    "zh_cn": "希诺亚（夏日Ver.）",
-   "zh_tw": "筱婭（夏日Ver.）"
+   "zh_tw": "筱婭（夏日Ver.）",
+   "added": "2018/09/27"
   },
   "110010_01": {
    "en_us": "Mikoto",
    "ja_jp": "ミコト",
    "zh_cn": "米科特",
-   "zh_tw": "尊"
+   "zh_tw": "尊",
+   "added": "2018/09/27"
   },
   "110010_02": {
    "en_us": "Summer Mikoto",
    "ja_jp": "ミコト（サマーVer.）",
    "zh_cn": "米科特（夏日Ver.）",
-   "zh_tw": "尊（夏日Ver.）"
+   "zh_tw": "尊（夏日Ver.）",
+   "added": "2018/09/27"
   },
   "110010_03": {
    "en_us": "Mikoto (Summer Normal)",
    "ja_jp": "ミコト",
    "zh_cn": "米科特（夏日通常)",
-   "zh_tw": "尊"
+   "zh_tw": "尊",
+   "added": "2018/09/27"
   },
   "110010_04": {
    "en_us": "Mikoto (Summer Normal)",
    "ja_jp": "ミコト",
    "zh_cn": "米科特（夏日通常)",
-   "zh_tw": "尊"
+   "zh_tw": "尊",
+   "added": "2018/09/27"
   },
   "110011_01": {
    "en_us": "Ezelith",
    "ja_jp": "エゼリット",
    "zh_cn": "艾赛莉特",
-   "zh_tw": "葉潔莉特"
+   "zh_tw": "葉潔莉特",
+   "added": "2018/09/27"
   },
   "110011_02": {
    "en_us": "Valentine's Ezelith",
    "ja_jp": "エゼリット（バレンタインVer.）",
    "zh_cn": "艾赛莉特（情人节Ver.）",
-   "zh_tw": "葉潔莉特（情人節Ver.）"
+   "zh_tw": "葉潔莉特（情人節Ver.）",
+   "added": "2018/09/27"
   },
   "110011_03": {
    "en_us": "Ezelith (Valentines Normal)",
    "ja_jp": "エゼリット",
    "zh_cn": "艾赛莉特（情人节通常)",
-   "zh_tw": "葉潔莉特"
+   "zh_tw": "葉潔莉特",
+   "added": "2018/09/27"
   },
   "110012_01": {
    "en_us": "Rex",
    "ja_jp": "レックス",
    "zh_cn": "雷克斯",
-   "zh_tw": "瑞克斯"
+   "zh_tw": "瑞克斯",
+   "added": "2018/09/27"
   },
   "110013_01": {
    "en_us": "Waike",
    "ja_jp": "ウェイク",
    "zh_cn": "威克",
-   "zh_tw": "威克"
+   "zh_tw": "威克",
+   "added": "2018/09/27"
   },
   "110014_01": {
    "en_us": "Cibella",
    "ja_jp": "シュベール",
    "zh_cn": "休贝尔",
-   "zh_tw": "修貝兒"
+   "zh_tw": "修貝兒",
+   "added": "2018/09/27"
   },
   "110015_01": {
    "en_us": "Zardin",
    "ja_jp": "シャーディ",
    "zh_cn": "夏迪",
-   "zh_tw": "夏迪"
+   "zh_tw": "夏迪",
+   "added": "2018/09/27"
   },
   "110015_02": {
    "en_us": "Beautician Zardin",
    "ja_jp": "シャーディ（ビューティ★Ver.）",
    "zh_cn": "夏迪（美型★Ver.）",
-   "zh_tw": "夏迪（時尚美豔★Ver.）"
+   "zh_tw": "夏迪（時尚美豔★Ver.）",
+   "added": "2018/09/27"
   },
   "110016_01": {
    "en_us": "Jurota",
    "ja_jp": "ジュウロウタ",
    "zh_cn": "十郎太",
-   "zh_tw": "十郎太"
+   "zh_tw": "十郎太",
+   "added": "2018/09/27"
   },
   "110017_01": {
    "en_us": "Ricardt",
    "ja_jp": "リカート",
    "zh_cn": "里卡多",
-   "zh_tw": "理卡特"
+   "zh_tw": "理卡特",
+   "added": "2018/09/27"
   },
   "110018_01": {
    "en_us": "Karina",
    "ja_jp": "カーリナ",
    "zh_cn": "卡丽娜",
-   "zh_tw": "卡麗娜"
+   "zh_tw": "卡麗娜",
+   "added": "2018/09/27"
   },
   "110019_01": {
    "en_us": "Thaniel",
    "ja_jp": "セイナー",
    "zh_cn": "塞纳",
-   "zh_tw": "瑟那"
+   "zh_tw": "瑟那",
+   "added": "2018/09/27"
   },
   "110020_01": {
    "en_us": "Luther",
    "ja_jp": "ルタ",
    "zh_cn": "卢塔",
-   "zh_tw": "路塔"
+   "zh_tw": "路塔",
+   "added": "2018/09/27"
   },
   "110021_01": {
    "en_us": "Xainfried",
    "ja_jp": "ザインフラッド",
    "zh_cn": "扎因弗拉德",
-   "zh_tw": "塞因福蘭德"
+   "zh_tw": "塞因福蘭德",
+   "added": "2018/09/27"
   },
   "110021_02": {
    "en_us": "Xainfried (Normal)",
    "ja_jp": "ザインフラッド",
    "zh_cn": "扎因弗拉德（通常)",
-   "zh_tw": "塞因福蘭德"
+   "zh_tw": "塞因福蘭德",
+   "added": "2018/09/27"
   },
   "110021_03": {
    "en_us": "Dragonyule Xainfried",
    "ja_jp": "ザインフラッド（星竜祭Ver.）",
    "zh_cn": "扎因弗拉德（星龙祭Ver.）",
-   "zh_tw": "塞因福蘭德（星龍祭Ver.）"
+   "zh_tw": "塞因福蘭德（星龍祭Ver.）",
+   "added": "2018/09/27"
   },
   "110021_04": {
    "en_us": "Xainfried (Dragonyule Normal)",
    "ja_jp": "ザインフラッド",
    "zh_cn": "扎因弗拉德（星龙祭通常)",
-   "zh_tw": "塞因福蘭德"
+   "zh_tw": "塞因福蘭德",
+   "added": "2018/09/27"
   },
   "110022_01": {
    "en_us": "Xander",
    "ja_jp": "アレクシス",
    "zh_cn": "阿莱克西斯",
-   "zh_tw": "亞雷克西斯"
+   "zh_tw": "亞雷克西斯",
+   "added": "2018/09/27"
   },
   "110022_02": {
    "en_us": "Dragonyule Xander",
    "ja_jp": "アレクシス（星竜祭Ver.）",
    "zh_cn": "阿莱克西斯（星龙祭Ver.）",
-   "zh_tw": "亞雷克西斯（星龍祭Ver.）"
+   "zh_tw": "亞雷克西斯（星龍祭Ver.）",
+   "added": "2018/09/27"
   },
   "110023_01": {
    "en_us": "Johanna",
    "ja_jp": "イハンナ",
    "zh_cn": "伊汉娜",
-   "zh_tw": "伊漢娜"
+   "zh_tw": "伊漢娜",
+   "added": "2018/09/27"
   },
   "110024_01": {
    "en_us": "Sophie",
    "ja_jp": "ソフィ",
    "zh_cn": "索菲",
-   "zh_tw": "蘇菲"
+   "zh_tw": "蘇菲",
+   "added": "2018/09/27"
   },
   "110025_01": {
    "en_us": "Nicolas",
    "ja_jp": "ニコラ",
    "zh_cn": "尼古拉",
-   "zh_tw": "尼可拉"
+   "zh_tw": "尼可拉",
+   "added": "2018/09/27"
   },
   "110026_01": {
    "en_us": "Francesca",
    "ja_jp": "フランチェスカ",
    "zh_cn": "弗兰切斯卡",
-   "zh_tw": "法蘭潔絲卡"
+   "zh_tw": "法蘭潔絲卡",
+   "added": "2018/09/27"
   },
   "110027_01": {
    "en_us": "Melody",
    "ja_jp": "メロディ",
    "zh_cn": "米罗蒂",
-   "zh_tw": "美樂蒂"
+   "zh_tw": "美樂蒂",
+   "added": "2018/09/27"
   },
   "110027_02": {
    "en_us": "Valentine's Melody",
    "ja_jp": "メロディ（バレンタインVer.）",
    "zh_cn": "米罗蒂（情人节Ver.）",
-   "zh_tw": "美樂蒂（情人節Ver.）"
+   "zh_tw": "美樂蒂（情人節Ver.）",
+   "added": "2018/09/27"
   },
   "110027_03": {
    "en_us": "Melody (Valentines)",
    "ja_jp": "メロディ",
    "zh_cn": "米罗蒂（情人节通常)",
-   "zh_tw": "美樂蒂"
+   "zh_tw": "美樂蒂",
+   "added": "2018/09/27"
   },
   "110027_04": {
    "en_us": "Melody (Valentines)",
    "ja_jp": "メロディ",
    "zh_cn": "米罗蒂（情人节通常)",
-   "zh_tw": "美樂蒂"
+   "zh_tw": "美樂蒂",
+   "added": "2018/09/27"
   },
   "110028_01": {
    "en_us": "Philia",
    "ja_jp": "フィリア",
    "zh_cn": "菲丽雅",
-   "zh_tw": "菲莉亞"
+   "zh_tw": "菲莉亞",
+   "added": "2018/09/27"
   },
   "110029_01": {
    "en_us": "Aeleen",
    "ja_jp": "エイル",
    "zh_cn": "艾露",
-   "zh_tw": "艾露"
+   "zh_tw": "艾露",
+   "added": "2018/09/27"
   },
   "110029_02": {
    "en_us": "Nurse Aeleen",
    "ja_jp": "エイル（フラワリーVer.）",
    "zh_cn": "艾露（花开Ver.）",
-   "zh_tw": "艾露（花漾笑顏Ver.）"
+   "zh_tw": "艾露（花漾笑顏Ver.）",
+   "added": "2018/09/27"
   },
   "110030_01": {
    "en_us": "Musashi",
    "ja_jp": "ムサシ",
    "zh_cn": "武藏",
-   "zh_tw": "武藏"
+   "zh_tw": "武藏",
+   "added": "2018/09/27"
   },
   "110031_01": {
    "en_us": "Eleonora",
    "ja_jp": "エレオノーラ",
    "zh_cn": "艾蕾欧诺拉",
-   "zh_tw": "愛蕾諾拉"
+   "zh_tw": "愛蕾諾拉",
+   "added": "2018/09/27"
   },
   "110032_01": {
    "en_us": "Maribelle",
    "ja_jp": "メリィベル",
    "zh_cn": "梅莉贝尔",
-   "zh_tw": "梅莉貝爾"
+   "zh_tw": "梅莉貝爾",
+   "added": "2018/09/27"
   },
   "110032_02": {
    "en_us": "Student Maribelle",
    "ja_jp": "メリィベル（フラワリーVer.）",
    "zh_cn": "梅莉贝尔（花开Ver.）",
-   "zh_tw": "梅莉貝爾（花漾笑顏Ver.）"
+   "zh_tw": "梅莉貝爾（花漾笑顏Ver.）",
+   "added": "2018/09/27"
   },
   "110032_03": {
    "en_us": "Maribelle (Ambitions in Bloom Normal)",
    "ja_jp": "メリィベル",
    "zh_cn": "梅莉贝尔（花开通常)",
-   "zh_tw": "梅莉貝爾"
+   "zh_tw": "梅莉貝爾",
+   "added": "2018/09/27"
   },
   "110033_01": {
    "en_us": "Linus",
    "ja_jp": "ライナス",
    "zh_cn": "莱纳斯",
-   "zh_tw": "萊納思"
+   "zh_tw": "萊納思",
+   "added": "2018/09/27"
   },
   "110034_01": {
    "en_us": "Malka",
    "ja_jp": "マルカ",
    "zh_cn": "马尔卡",
-   "zh_tw": "瑪爾卡"
+   "zh_tw": "瑪爾卡",
+   "added": "2018/09/27"
   },
   "110035_01": {
    "en_us": "Raemond",
    "ja_jp": "ライムンド",
    "zh_cn": "莱蒙德",
-   "zh_tw": "萊蒙德"
+   "zh_tw": "萊蒙德",
+   "added": "2018/09/27"
   },
   "110036_01": {
    "en_us": "Malora",
    "ja_jp": "マローラ",
    "zh_cn": "马萝拉",
-   "zh_tw": "瑪洛菈"
+   "zh_tw": "瑪洛菈",
+   "added": "2018/09/27"
   },
   "110036_03": {
    "en_us": "Dragonyule Malora",
    "ja_jp": "マローラ（星竜祭Ver.）",
    "zh_cn": "马萝拉（星龙祭Ver.）",
-   "zh_tw": "瑪洛菈（星龍祭Ver.）"
+   "zh_tw": "瑪洛菈（星龍祭Ver.）",
+   "added": "2018/09/27"
   },
   "110037_01": {
    "en_us": "Irfan",
    "ja_jp": "イルファン",
    "zh_cn": "伊尔凡",
-   "zh_tw": "宜爾凡"
+   "zh_tw": "宜爾凡",
+   "added": "2018/09/27"
   },
   "110038_01": {
    "en_us": "Hope",
    "ja_jp": "ホープ",
    "zh_cn": "霍普",
-   "zh_tw": "霍普"
+   "zh_tw": "霍普",
+   "added": "2018/09/27"
   },
   "110038_02": {
    "en_us": "Templar Hope",
    "ja_jp": "ホープ（教会騎士Ver.）",
    "zh_cn": "霍普（教会骑士Ver.）",
-   "zh_tw": "霍普（教會騎士Ver.）"
+   "zh_tw": "霍普（教會騎士Ver.）",
+   "added": "2018/09/27"
   },
   "110038_03": {
    "en_us": "Hope (Church Knight Normal)",
    "ja_jp": "ホープ",
    "zh_cn": "霍普（教会骑士通常)",
-   "zh_tw": "霍普"
+   "zh_tw": "霍普",
+   "added": "2018/09/27"
   },
   "110039_01": {
    "en_us": "Ryozen",
    "ja_jp": "リョウゼン",
    "zh_cn": "梁泉",
-   "zh_tw": "瞭禪"
+   "zh_tw": "瞭禪",
+   "added": "2018/09/27"
   },
   "110040_01": {
    "en_us": "Rawn",
    "ja_jp": "ウルガ",
    "zh_cn": "乌尔嘉",
-   "zh_tw": "烏路嘉"
+   "zh_tw": "烏路嘉",
+   "added": "2018/09/27"
   },
   "110041_01": {
    "en_us": "Amane",
    "ja_jp": "アマネ",
    "zh_cn": "天音",
-   "zh_tw": "天音"
+   "zh_tw": "天音",
+   "added": "2018/09/27"
   },
   "110041_02": {
    "en_us": "Summer Amane",
    "ja_jp": "アマネ（サマーVer.）",
    "zh_cn": "天音（夏日Ver.）",
-   "zh_tw": "天音（夏日Ver.）"
+   "zh_tw": "天音（夏日Ver.）",
+   "added": "2018/09/27"
   },
   "110041_03": {
    "en_us": "Amane (Summer Normal)",
    "ja_jp": "アマネ",
    "zh_cn": "天音（夏日通常)",
-   "zh_tw": "天音"
+   "zh_tw": "天音",
+   "added": "2018/09/27"
   },
   "110042_01": {
    "en_us": "Julietta",
    "ja_jp": "ジュリエッタ",
    "zh_cn": "朱丽叶",
-   "zh_tw": "朱莉葉塔"
+   "zh_tw": "朱莉葉塔",
+   "added": "2018/09/27"
   },
   "110042_02": {
    "en_us": "Summer Julietta",
    "ja_jp": "ジュリエッタ（サマーVer.）",
    "zh_cn": "朱丽叶（夏日Ver.）",
-   "zh_tw": "朱莉葉塔（夏日Ver.）"
+   "zh_tw": "朱莉葉塔（夏日Ver.）",
+   "added": "2018/09/27"
   },
   "110042_03": {
    "en_us": "Julietta (Summer Normal)",
    "ja_jp": "ジュリエッタ",
    "zh_cn": "朱丽叶（夏日通常)",
-   "zh_tw": "朱莉葉塔"
+   "zh_tw": "朱莉葉塔",
+   "added": "2018/09/27"
   },
   "110043_01": {
    "en_us": "Hildegarde",
    "ja_jp": "ヒルデガルド",
    "zh_cn": "希尔德加德",
-   "zh_tw": "赫德嘉"
+   "zh_tw": "赫德嘉",
+   "added": "2018/09/27"
   },
   "110043_02": {
    "en_us": "Valentine's Hildegarde",
    "ja_jp": "ヒルデガルド（バレンタインVer.）",
    "zh_cn": "希尔德加德（情人节Ver.）",
-   "zh_tw": "赫德嘉（情人節Ver.）"
+   "zh_tw": "赫德嘉（情人節Ver.）",
+   "added": "2018/09/27"
   },
   "110043_03": {
    "en_us": "Hildegarde (Valentines Normal)",
    "ja_jp": "ヒルデガルド",
    "zh_cn": "希尔德加德（情人节通常)",
-   "zh_tw": "赫德嘉"
+   "zh_tw": "赫德嘉",
+   "added": "2018/09/27"
   },
   "110044_01": {
    "en_us": "Taro",
    "ja_jp": "タロウ",
    "zh_cn": "太郎",
-   "zh_tw": "太郎"
+   "zh_tw": "太郎",
+   "added": "2018/09/27"
   },
   "110045_01": {
    "en_us": "Erik",
    "ja_jp": "エリック",
    "zh_cn": "埃里克",
-   "zh_tw": "艾力克"
+   "zh_tw": "艾力克",
+   "added": "2018/09/27"
   },
   "110046_01": {
    "en_us": "Rodrigo",
    "ja_jp": "ロドリゴ",
    "zh_cn": "罗德里戈",
-   "zh_tw": "羅德里戈"
+   "zh_tw": "羅德里戈",
+   "added": "2018/09/27"
   },
   "110047_01": {
    "en_us": "Althemia",
    "ja_jp": "イルテミア",
    "zh_cn": "伊露缇米娅",
-   "zh_tw": "伊兒提米亞"
+   "zh_tw": "伊兒提米亞",
+   "added": "2018/09/27"
   },
   "110047_02": {
    "en_us": "Halloween Althemia",
    "ja_jp": "イルテミア（ハロウィンVer.）",
    "zh_cn": "伊露缇米娅（万圣节Ver.）",
-   "zh_tw": "伊兒提米亞（萬聖節Ver.）"
+   "zh_tw": "伊兒提米亞（萬聖節Ver.）",
+   "added": "2018/09/27"
   },
   "110048_01": {
    "en_us": "Vice",
    "ja_jp": "ワイス",
    "zh_cn": "华兹",
-   "zh_tw": "惟思"
+   "zh_tw": "惟思",
+   "added": "2018/09/27"
   },
   "110049_01": {
    "en_us": "Edward",
    "ja_jp": "エドワード",
    "zh_cn": "爱德华",
-   "zh_tw": "愛德華"
+   "zh_tw": "愛德華",
+   "added": "2018/09/27"
   },
   "110049_02": {
    "en_us": "Halloween Edward",
    "ja_jp": "エドワード（ハロウィンVer.）",
    "zh_cn": "爱德华（万圣节Ver.）",
-   "zh_tw": "愛德華（萬聖節Ver.）"
+   "zh_tw": "愛德華（萬聖節Ver.）",
+   "added": "2018/09/27"
   },
   "110050_01": {
    "en_us": "Berserker",
    "ja_jp": "ベルザーク",
    "zh_cn": "贝尔扎克",
-   "zh_tw": "貝爾薩克"
+   "zh_tw": "貝爾薩克",
+   "added": "2018/09/27"
   },
   "110050_02": {
    "en_us": "Hunter Berserker",
    "ja_jp": "ベルザーク（ハンターVer.）",
    "zh_cn": "贝尔扎克（猎人Ver.）",
-   "zh_tw": "貝爾薩克（獵人Ver.）"
+   "zh_tw": "貝爾薩克（獵人Ver.）",
+   "added": "2018/09/27"
   },
   "110050_03": {
    "en_us": "Berserker (Hunter Normal)",
    "ja_jp": "ベルザーク",
    "zh_cn": "贝尔扎克（猎人通常)",
-   "zh_tw": "貝爾薩克"
+   "zh_tw": "貝爾薩克",
+   "added": "2018/09/27"
   },
   "110051_01": {
    "en_us": "Kleimann",
    "ja_jp": "クレイマン",
    "zh_cn": "克雷伊曼",
-   "zh_tw": "苦雷曼"
+   "zh_tw": "苦雷曼",
+   "added": "2018/09/27"
   },
   "110052_01": {
    "en_us": "Orion",
    "ja_jp": "オリオン",
    "zh_cn": "俄里翁",
-   "zh_tw": "歐里昂"
+   "zh_tw": "歐里昂",
+   "added": "2018/09/27"
   },
   "110052_03": {
    "en_us": "Valentine's Orion",
    "ja_jp": "オリオン（バレンタインVer.）",
    "zh_cn": "俄里翁（情人节Ver.）",
-   "zh_tw": "歐里昂（情人節Ver.）"
+   "zh_tw": "歐里昂（情人節Ver.）",
+   "added": "2018/09/27"
   },
   "110053_01": {
    "en_us": "Nefaria",
    "ja_jp": "ネファリエ",
    "zh_cn": "奈法利耶",
-   "zh_tw": "涅法莉耶"
+   "zh_tw": "涅法莉耶",
+   "added": "2018/09/27"
   },
   "110053_02": {
    "en_us": "Dragonyule Nefaria",
    "ja_jp": "ネファリエ（星竜祭Ver.）",
    "zh_cn": "奈法利耶（星龙祭Ver.）",
-   "zh_tw": "涅法莉耶（星龍祭Ver.）"
+   "zh_tw": "涅法莉耶（星龍祭Ver.）",
+   "added": "2018/09/27"
   },
   "110053_03": {
    "en_us": "Incognito Nefaria",
    "ja_jp": "ネファリエ（お忍びVer.）",
    "zh_cn": "奈法利耶（微服Ver.）",
-   "zh_tw": "涅法莉耶（私訪Ver.）"
+   "zh_tw": "涅法莉耶（私訪Ver.）",
+   "added": "2020/09/11"
   },
   "110054_01": {
    "en_us": "Serena",
    "ja_jp": "セレナ",
    "zh_cn": "塞蕾娜",
-   "zh_tw": "席琳娜"
+   "zh_tw": "席琳娜",
+   "added": "2018/09/27"
   },
   "110056_01": {
    "en_us": "Yue",
    "ja_jp": "ユエ",
    "zh_cn": "悦",
-   "zh_tw": "由耶"
+   "zh_tw": "由耶",
+   "added": "2018/09/27"
   },
   "110058_01": {
    "en_us": "Jakob",
    "ja_jp": "ジャン",
    "zh_cn": "让",
-   "zh_tw": "吉恩"
+   "zh_tw": "吉恩",
+   "added": "2018/09/27"
   },
   "110059_01": {
    "en_us": "Grace",
    "ja_jp": "グレース",
    "zh_cn": "格蕾丝",
-   "zh_tw": "葛雷絲"
+   "zh_tw": "葛雷絲",
+   "added": "2018/09/27"
   },
   "110063_01": {
    "en_us": "Estelle",
    "ja_jp": "エステル",
    "zh_cn": "艾丝蒂尔",
-   "zh_tw": "愛思蒂兒"
+   "zh_tw": "愛思蒂兒",
+   "added": "2018/09/27"
   },
   "110063_02": {
    "en_us": "Summer Estelle",
    "ja_jp": "エステル（サマーVer.）",
    "zh_cn": "艾丝蒂尔（夏日Ver.）",
-   "zh_tw": "愛思蒂兒（夏日Ver.）"
+   "zh_tw": "愛思蒂兒（夏日Ver.）",
+   "added": "2018/09/27"
   },
   "110063_03": {
    "en_us": "Estelle (Summer Normal)",
    "ja_jp": "エステル",
    "zh_cn": "艾丝蒂尔（夏日通常)",
-   "zh_tw": "愛思蒂兒"
+   "zh_tw": "愛思蒂兒",
+   "added": "2018/09/27"
   },
   "110064_01": {
    "en_us": "Yachiyo",
    "ja_jp": "ヤチヨ",
    "zh_cn": "八千代",
-   "zh_tw": "八千代"
+   "zh_tw": "八千代",
+   "added": "2018/09/27"
   },
   "110066_01": {
    "en_us": "Norwin",
    "ja_jp": "ノーストン",
    "zh_cn": "诺斯通",
-   "zh_tw": "諾斯敦"
+   "zh_tw": "諾斯敦",
+   "added": "2018/09/27"
   },
   "110066_02": {
    "en_us": "Summer Norwin",
    "ja_jp": "ノーストン（サマーVer.）",
    "zh_cn": "诺斯通（夏日Ver.）",
-   "zh_tw": "諾斯敦（夏日Ver.）"
+   "zh_tw": "諾斯敦（夏日Ver.）",
+   "added": "2018/09/27"
   },
   "110067_01": {
    "en_us": "Vida",
    "ja_jp": "ヴィッテ",
    "zh_cn": "维特",
-   "zh_tw": "維特"
+   "zh_tw": "維特",
+   "added": "2018/09/27"
   },
   "110252_01": {
    "en_us": "Lily",
    "ja_jp": "リリィ",
    "zh_cn": "莉莉",
-   "zh_tw": "莉莉"
+   "zh_tw": "莉莉",
+   "added": "2018/09/27"
   },
   "110253_01": {
    "en_us": "Orsem",
    "ja_jp": "オルセム",
    "zh_cn": "奥尔森",
-   "zh_tw": "歐爾塞姆"
+   "zh_tw": "歐爾塞姆",
+   "added": "2018/09/27"
   },
   "110254_01": {
    "en_us": "Zace",
    "ja_jp": "ジーズ",
    "zh_cn": "吉斯",
-   "zh_tw": "吉司"
+   "zh_tw": "吉司",
+   "added": "2018/09/27"
   },
   "110255_01": {
    "en_us": "Celliera",
    "ja_jp": "セリエラ",
    "zh_cn": "赛丽艾拉",
-   "zh_tw": "榭葉拉"
+   "zh_tw": "榭葉拉",
+   "added": "2018/09/27"
   },
   "110255_02": {
    "en_us": "Summer Celliera",
    "ja_jp": "セリエラ（サマーVer.）",
    "zh_cn": "赛丽艾拉（夏日Ver.）",
-   "zh_tw": "榭葉拉（夏日Ver.）"
+   "zh_tw": "榭葉拉（夏日Ver.）",
+   "added": "2018/09/27"
   },
   "110256_01": {
    "en_us": "Louise",
    "ja_jp": "ルイーゼ",
    "zh_cn": "洛依泽",
-   "zh_tw": "路易潔"
+   "zh_tw": "路易潔",
+   "added": "2018/09/27"
   },
   "110257_01": {
    "en_us": "Lowen",
    "ja_jp": "ルーエン",
    "zh_cn": "卢恩",
-   "zh_tw": "路恩"
+   "zh_tw": "路恩",
+   "added": "2018/09/27"
   },
   "110257_02": {
    "en_us": "Halloween Lowen",
    "ja_jp": "ルーエン（ハロウィンVer.）",
    "zh_cn": "卢恩（万圣节Ver.）",
-   "zh_tw": "路恩（萬聖節Ver.）"
+   "zh_tw": "路恩（萬聖節Ver.）",
+   "added": "2018/09/27"
   },
   "110258_01": {
    "en_us": "Pietro",
    "ja_jp": "ピドット",
    "zh_cn": "皮多特",
-   "zh_tw": "匹多特"
+   "zh_tw": "匹多特",
+   "added": "2018/09/27"
   },
   "110259_01": {
    "en_us": "Lea",
    "ja_jp": "リア",
    "zh_cn": "丽雅",
-   "zh_tw": "里亞"
+   "zh_tw": "里亞",
+   "added": "2018/09/27"
   },
   "110260_01": {
    "en_us": "Emma",
    "ja_jp": "エマ",
    "zh_cn": "艾玛",
-   "zh_tw": "艾瑪"
+   "zh_tw": "艾瑪",
+   "added": "2018/09/27"
   },
   "110261_01": {
    "en_us": "Marty",
    "ja_jp": "マーティ",
    "zh_cn": "马蒂",
-   "zh_tw": "馬汀"
+   "zh_tw": "馬汀",
+   "added": "2018/09/27"
   },
   "110262_01": {
    "en_us": "Aldred",
    "ja_jp": "アデルペイン",
    "zh_cn": "阿德尔潘",
-   "zh_tw": "阿戴爾潘因"
+   "zh_tw": "阿戴爾潘因",
+   "added": "2018/09/27"
   },
   "110262_02": {
    "en_us": "Aldred (Normal)",
    "ja_jp": "アデルペイン",
    "zh_cn": "阿德尔潘（通常)",
-   "zh_tw": "阿戴爾潘因"
+   "zh_tw": "阿戴爾潘因",
+   "added": "2018/09/27"
   },
   "110263_01": {
    "en_us": "Ramona",
    "ja_jp": "ロジィナ",
    "zh_cn": "罗吉娜",
-   "zh_tw": "羅吉娜"
+   "zh_tw": "羅吉娜",
+   "added": "2018/09/27"
   },
   "110264_01": {
    "en_us": "Rena",
    "ja_jp": "レジィナ",
    "zh_cn": "雷吉娜",
-   "zh_tw": "雷吉娜"
+   "zh_tw": "雷吉娜",
+   "added": "2018/09/27"
   },
   "110264_02": {
    "en_us": "Rena (Normal)",
    "ja_jp": "レジィナ",
    "zh_cn": "雷吉娜（通常)",
-   "zh_tw": "雷吉娜"
+   "zh_tw": "雷吉娜",
+   "added": "2018/09/27"
   },
   "110265_01": {
    "en_us": "Renee",
    "ja_jp": "ルジィナ",
    "zh_cn": "卢吉娜",
-   "zh_tw": "露吉娜"
+   "zh_tw": "露吉娜",
+   "added": "2018/09/27"
   },
   "110266_01": {
    "en_us": "Naveed",
    "ja_jp": "ナジャーフ",
    "zh_cn": "纳杰夫",
-   "zh_tw": "納杰夫"
+   "zh_tw": "納杰夫",
+   "added": "2018/09/27"
   },
   "110267_01": {
    "en_us": "Hawk",
    "ja_jp": "ホーク",
    "zh_cn": "霍克",
-   "zh_tw": "霍克"
+   "zh_tw": "霍克",
+   "added": "2018/09/27"
   },
   "110267_02": {
    "en_us": "Hawk (Normal)",
    "ja_jp": "ホーク",
    "zh_cn": "霍克（通常)",
-   "zh_tw": "霍克"
+   "zh_tw": "霍克",
+   "added": "2018/09/27"
   },
   "110268_01": {
    "en_us": "Lin You",
    "ja_jp": "リンユー",
    "zh_cn": "林佑",
-   "zh_tw": "燐由"
+   "zh_tw": "燐由",
+   "added": "2018/09/27"
   },
   "110269_01": {
    "en_us": "Verica",
    "ja_jp": "ウェルシェラ",
    "zh_cn": "维尔莎拉",
-   "zh_tw": "薇兒謝拉"
+   "zh_tw": "薇兒謝拉",
+   "added": "2018/09/27"
   },
   "110269_03": {
    "en_us": "Verica (Summer)",
    "ja_jp": "ウェルシェラ",
    "zh_cn": "维尔莎拉（夏日)",
-   "zh_tw": "薇兒謝拉"
+   "zh_tw": "薇兒謝拉",
+   "added": "2018/09/27"
   },
   "110270_01": {
    "en_us": "Melsa",
    "ja_jp": "メルサ",
    "zh_cn": "梅露莎",
-   "zh_tw": "梅兒莎"
+   "zh_tw": "梅兒莎",
+   "added": "2018/09/27"
   },
   "110271_01": {
    "en_us": "Linnea",
    "ja_jp": "リナーシュ",
    "zh_cn": "利娜修",
-   "zh_tw": "里娜尋"
+   "zh_tw": "里娜尋",
+   "added": "2018/09/27"
   },
   "110271_02": {
    "en_us": "Linnea (Normal)",
    "ja_jp": "リナーシュ",
    "zh_cn": "利娜修（通常)",
-   "zh_tw": "里娜尋"
+   "zh_tw": "里娜尋",
+   "added": "2018/09/27"
   },
   "110272_01": {
    "en_us": "Forte",
    "ja_jp": "フォルテ",
    "zh_cn": "法尔提",
-   "zh_tw": "法露特"
+   "zh_tw": "法露特",
+   "added": "2018/09/27"
   },
   "110272_02": {
    "en_us": "Forte (Normal)",
    "ja_jp": "フォルテ",
    "zh_cn": "法尔提（通常)",
-   "zh_tw": "法露特"
+   "zh_tw": "法露特",
+   "added": "2018/09/27"
   },
   "110274_01": {
    "en_us": "Albert",
    "ja_jp": "アルベール",
    "zh_cn": "阿尔贝尔",
-   "zh_tw": "阿爾貝爾"
+   "zh_tw": "阿爾貝爾",
+   "added": "2018/09/27"
   },
   "110275_01": {
    "en_us": "Annelie",
    "ja_jp": "アンネリーエ",
    "zh_cn": "安妮利艾",
-   "zh_tw": "安妮李耶"
+   "zh_tw": "安妮李耶",
+   "added": "2018/09/27"
   },
   "110276_01": {
    "en_us": "Fritz",
    "ja_jp": "フリッツ",
    "zh_cn": "弗里茨",
-   "zh_tw": "菲力茲"
+   "zh_tw": "菲力茲",
+   "added": "2018/09/27"
   },
   "110277_01": {
    "en_us": "Felicia",
    "ja_jp": "フェリーチャ",
    "zh_cn": "菲丽嘉",
-   "zh_tw": "妃麗恰"
+   "zh_tw": "妃麗恰",
+   "added": "2018/09/27"
   },
   "110277_02": {
    "en_us": "Felicia (Dancer)",
    "ja_jp": "フェリーチャ",
    "zh_cn": "菲丽嘉（舞蹈)",
-   "zh_tw": "妃麗恰"
+   "zh_tw": "妃麗恰",
+   "added": "2018/09/27"
   },
   "110280_01": {
    "en_us": "Heinwald",
    "ja_jp": "ハインヴァルト",
    "zh_cn": "海因瓦尔德",
-   "zh_tw": "海因沃爾德"
+   "zh_tw": "海因沃爾德",
+   "added": "2018/09/27"
   },
   "110281_01": {
    "en_us": "Curran",
    "ja_jp": "クーガー",
    "zh_cn": "库格尔",
-   "zh_tw": "庫豹"
+   "zh_tw": "庫豹",
+   "added": "2018/09/27"
   },
   "110281_02": {
    "en_us": "Yukata Curran",
    "ja_jp": "クーガー（浴衣Ver.）",
    "zh_cn": "库格尔（浴衣Ver.）",
-   "zh_tw": "庫豹（浴衣Ver.）"
+   "zh_tw": "庫豹（浴衣Ver.）",
+   "added": "2018/09/27"
   },
   "110291_01": {
    "en_us": "Marth",
    "ja_jp": "マルス",
    "zh_cn": "马尔斯",
-   "zh_tw": "馬爾斯"
+   "zh_tw": "馬爾斯",
+   "added": "2018/09/27"
   },
   "110295_01": {
    "en_us": "Valerio",
    "ja_jp": "ヴァレリオ",
    "zh_cn": "瓦莱里奥",
-   "zh_tw": "瓦萊里奧"
+   "zh_tw": "瓦萊里奧",
+   "added": "2018/09/27"
   },
   "110295_02": {
    "en_us": "Valerio (Tied Hair)",
    "ja_jp": "ヴァレリオ",
    "zh_cn": "瓦莱里奥（束发)",
-   "zh_tw": "瓦萊里奧"
+   "zh_tw": "瓦萊里奧",
+   "added": "2018/09/27"
   },
   "110295_03": {
    "en_us": "Valerio (Normal)",
    "ja_jp": "ヴァレリオ",
    "zh_cn": "瓦莱里奥（通常)",
-   "zh_tw": "瓦萊里奧"
+   "zh_tw": "瓦萊里奧",
+   "added": "2018/09/27"
   },
   "110296_01": {
    "en_us": "Mitsuba",
    "ja_jp": "ミツバ",
    "zh_cn": "三叶",
-   "zh_tw": "三葉"
+   "zh_tw": "三葉",
+   "added": "2018/09/27"
   },
   "110299_01": {
    "en_us": "Xuan Zang",
    "ja_jp": "サンゾウ",
    "zh_cn": "三藏",
-   "zh_tw": "三藏"
+   "zh_tw": "三藏",
+   "added": "2018/09/27"
   },
   "110299_02": {
    "en_us": "Radiant Xuan Zang",
    "ja_jp": "サンゾウ（ゲンジョウVer.）",
    "zh_cn": "三藏（暶奘Ver.）",
-   "zh_tw": "三藏（璇奘Ver.）"
+   "zh_tw": "三藏（璇奘Ver.）",
+   "added": "2018/09/27"
   },
   "110300_01": {
    "en_us": "Pipple",
    "ja_jp": "ピップル",
    "zh_cn": "啵噜",
-   "zh_tw": "皮普"
+   "zh_tw": "皮普",
+   "added": "2018/09/27"
   },
   "110301_01": {
    "en_us": "Odetta",
    "ja_jp": "オデッタ",
    "zh_cn": "欧蒂塔",
-   "zh_tw": "歐蒂妲"
+   "zh_tw": "歐蒂妲",
+   "added": "2018/09/27"
   },
   "110301_02": {
    "en_us": "Halloween Odetta",
    "ja_jp": "オデッタ（ハロウィンVer.）",
    "zh_cn": "欧蒂塔（万圣节Ver.）",
-   "zh_tw": "歐蒂妲（萬聖節Ver.）"
+   "zh_tw": "歐蒂妲（萬聖節Ver.）",
+   "added": "2018/09/27"
   },
   "110302_01": {
    "en_us": "Pia",
    "ja_jp": "ピアチェ",
    "zh_cn": "皮雅茜",
-   "zh_tw": "琵雅雀"
+   "zh_tw": "琵雅雀",
+   "added": "2018/09/27"
   },
   "110302_02": {
    "en_us": "Pia (Normal)",
    "ja_jp": "ピアチェ",
    "zh_cn": "皮雅茜（通常)",
-   "zh_tw": "琵雅雀"
+   "zh_tw": "琵雅雀",
+   "added": "2018/09/27"
   },
   "110303_01": {
    "en_us": "Elias",
    "ja_jp": "エリアス",
    "zh_cn": "埃利亚斯",
-   "zh_tw": "耶歷亞斯"
+   "zh_tw": "耶歷亞斯",
+   "added": "2018/09/27"
   },
   "110303_02": {
    "en_us": "Elias (Normal)",
    "ja_jp": "エリアス",
    "zh_cn": "埃利亚斯（通常)",
-   "zh_tw": "耶歷亞斯"
+   "zh_tw": "耶歷亞斯",
+   "added": "2018/09/27"
   },
   "110304_01": {
    "en_us": "Vixel",
    "ja_jp": "ヴィクセル",
    "zh_cn": "维克塞尔",
-   "zh_tw": "魏克賽爾"
+   "zh_tw": "魏克賽爾",
+   "added": "2018/09/27"
   },
   "110304_02": {
    "en_us": "Vixel (Normal)",
    "ja_jp": "ヴィクセル",
    "zh_cn": "维克塞尔（通常)",
-   "zh_tw": "魏克賽爾"
+   "zh_tw": "魏克賽爾",
+   "added": "2018/09/27"
   },
   "110305_01": {
    "en_us": "Lucretia",
    "ja_jp": "ルクレツィア",
    "zh_cn": "卢克雷齐娅",
-   "zh_tw": "露克雷齊亞"
+   "zh_tw": "露克雷齊亞",
+   "added": "2018/09/27"
   },
   "110306_01": {
    "en_us": "Bellina",
    "ja_jp": "ベリーナ",
    "zh_cn": "贝利娜",
-   "zh_tw": "貝麗娜"
+   "zh_tw": "貝麗娜",
+   "added": "2018/09/27"
   },
   "110307_01": {
    "en_us": "Victor",
    "ja_jp": "ヴィクター",
    "zh_cn": "维克托",
-   "zh_tw": "維克多"
+   "zh_tw": "維克多",
+   "added": "2018/09/27"
   },
   "110310_01": {
    "en_us": "Addis",
    "ja_jp": "アディス",
    "zh_cn": "阿迪斯",
-   "zh_tw": "阿迪斯"
+   "zh_tw": "阿迪斯",
+   "added": "2018/09/27"
   },
   "110310_02": {
    "en_us": "Valentine's Addis",
    "ja_jp": "アディス（バレンタインVer.）",
    "zh_cn": "阿迪斯（情人节Ver.）",
-   "zh_tw": "阿迪斯（情人節Ver.）"
+   "zh_tw": "阿迪斯（情人節Ver.）",
+   "added": "2018/09/27"
   },
   "110310_03": {
    "en_us": "Addis (Valentines Normal)",
    "ja_jp": "アディス",
    "zh_cn": "阿迪斯（情人节通常)",
-   "zh_tw": "阿迪斯"
+   "zh_tw": "阿迪斯",
+   "added": "2018/09/27"
   },
   "110311_01": {
    "en_us": "Sazanka",
    "ja_jp": "サザンカ",
    "zh_cn": "山茶花",
-   "zh_tw": "山茶"
+   "zh_tw": "山茶",
+   "added": "2018/09/27"
   },
   "110312_01": {
    "en_us": "Botan",
    "ja_jp": "ボタン",
    "zh_cn": "牡丹",
-   "zh_tw": "牡丹"
+   "zh_tw": "牡丹",
+   "added": "2018/09/27"
   },
   "110313_01": {
    "en_us": "Ieyasu",
    "ja_jp": "イエヤス",
    "zh_cn": "家康",
-   "zh_tw": "家康"
+   "zh_tw": "家康",
+   "added": "2018/09/27"
   },
   "110313_02": {
    "en_us": "Ieyasu (Normal)",
    "ja_jp": "イエヤス",
    "zh_cn": "家康（通常)",
-   "zh_tw": "家康"
+   "zh_tw": "家康",
+   "added": "2018/09/27"
   },
   "110314_01": {
    "en_us": "Su Fang",
    "ja_jp": "スオウ",
    "zh_cn": "苏方",
-   "zh_tw": "蘇歐"
+   "zh_tw": "蘇歐",
+   "added": "2018/09/27"
   },
   "110315_01": {
    "en_us": "Ku Hai",
    "ja_jp": "クガイ",
    "zh_cn": "苦海",
-   "zh_tw": "久垓"
+   "zh_tw": "久垓",
+   "added": "2018/09/27"
   },
   "110316_01": {
    "en_us": "Xiao Lei",
    "ja_jp": "シャオレイ",
    "zh_cn": "小蕾",
-   "zh_tw": "小蕾"
+   "zh_tw": "小蕾",
+   "added": "2018/09/27"
   },
   "110317_01": {
    "en_us": "Laranoa",
    "ja_jp": "ララノア",
    "zh_cn": "拉拉诺亚",
-   "zh_tw": "拉拉諾亞"
+   "zh_tw": "拉拉諾亞",
+   "added": "2018/09/27"
   },
   "110318_01": {
    "en_us": "Sylas",
    "ja_jp": "シャスト",
    "zh_cn": "加斯特",
-   "zh_tw": "夏思特"
+   "zh_tw": "夏思特",
+   "added": "2018/09/27"
   },
   "110319_01": {
    "en_us": "Fleur",
    "ja_jp": "フルル",
    "zh_cn": "芙露露",
-   "zh_tw": "芙露璐"
+   "zh_tw": "芙露璐",
+   "added": "2018/09/27"
   },
   "110322_01": {
    "en_us": "Zhu Bajie",
    "ja_jp": "ハッカイ",
    "zh_cn": "八戒",
-   "zh_tw": "八戒"
+   "zh_tw": "八戒",
+   "added": "2018/09/27"
   },
   "110323_01": {
    "en_us": "Sha Wujing",
    "ja_jp": "ゴジョウ",
    "zh_cn": "悟净",
-   "zh_tw": "悟淨"
+   "zh_tw": "悟淨",
+   "added": "2018/09/27"
   },
   "110324_01": {
    "en_us": "Wu Kong",
    "ja_jp": "ゴクウ",
    "zh_cn": "悟空",
-   "zh_tw": "悟空"
+   "zh_tw": "悟空",
+   "added": "2018/09/27"
   },
   "110324_02": {
    "en_us": "Wu Kong",
    "ja_jp": "ゴクウ",
    "zh_cn": "悟空",
-   "zh_tw": "悟空"
+   "zh_tw": "悟空",
+   "added": "2018/09/27"
   },
   "110324_03": {
    "en_us": "Wu Kong (Jindou Yun)",
    "ja_jp": "ゴクウ",
    "zh_cn": "悟空（筋斗云)",
-   "zh_tw": "悟空"
+   "zh_tw": "悟空",
+   "added": "2018/09/27"
   },
   "110324_04": {
    "en_us": "Wu Kong (Jindou Yun)",
    "ja_jp": "ゴクウ",
    "zh_cn": "悟空（筋斗云)",
-   "zh_tw": "悟空"
+   "zh_tw": "悟空",
+   "added": "2018/09/27"
   },
   "110325_01": {
    "en_us": "Yaten",
    "ja_jp": "ヤテン",
    "zh_cn": "夜天",
-   "zh_tw": "夜天"
+   "zh_tw": "夜天",
+   "added": "2018/09/27"
   },
   "110326_01": {
    "en_us": "Natalie",
    "ja_jp": "ナッツ",
    "zh_cn": "娜茨",
-   "zh_tw": "夏實"
+   "zh_tw": "夏實",
+   "added": "2018/09/27"
   },
   "110327_01": {
    "en_us": "Alfonse",
    "ja_jp": "アルフォンス",
    "zh_cn": "阿尔冯斯",
-   "zh_tw": "阿爾馮斯"
+   "zh_tw": "阿爾馮斯",
+   "added": "2018/09/27"
   },
   "110327_02": {
    "en_us": "Alfonse (Normal)",
    "ja_jp": "アルフォンス",
    "zh_cn": "阿尔冯斯（通常)",
-   "zh_tw": "阿爾馮斯"
+   "zh_tw": "阿爾馮斯",
+   "added": "2018/09/27"
   },
   "110328_01": {
    "en_us": "Fjorm",
    "ja_jp": "フィヨルム",
    "zh_cn": "菲约尔姆",
-   "zh_tw": "菲約爾姆"
+   "zh_tw": "菲約爾姆",
+   "added": "2018/09/27"
   },
   "110333_01": {
    "en_us": "Veronica",
    "ja_jp": "ヴェロニカ",
    "zh_cn": "维洛妮卡",
-   "zh_tw": "維洛妮卡"
+   "zh_tw": "維洛妮卡",
+   "added": "2018/09/27"
   },
   "110333_02": {
    "en_us": "Veronica (Normal)",
    "ja_jp": "ヴェロニカ",
    "zh_cn": "维洛妮卡（通常)",
-   "zh_tw": "維洛妮卡"
+   "zh_tw": "維洛妮卡",
+   "added": "2018/09/27"
   },
   "110334_01": {
    "en_us": "Audric",
    "ja_jp": "アスラム",
    "zh_cn": "亚斯拉姆",
-   "zh_tw": "安斯拉姆"
+   "zh_tw": "安斯拉姆",
+   "added": "2018/09/27"
   },
   "110335_01": {
    "en_us": "Patia",
    "ja_jp": "パティア",
    "zh_cn": "帕蒂亚",
-   "zh_tw": "帕媞亞"
+   "zh_tw": "帕媞亞",
+   "added": "2018/09/27"
   },
   "110335_02": {
    "en_us": "Summer Patia",
    "ja_jp": "パティア（サマーVer.）",
    "zh_cn": "帕蒂亚（夏日Ver.）",
-   "zh_tw": "帕媞亞（夏日Ver.）"
+   "zh_tw": "帕媞亞（夏日Ver.）",
+   "added": "2018/09/27"
   },
   "110335_03": {
    "en_us": "Patia (Summer Normal)",
    "ja_jp": "パティア",
    "zh_cn": "帕蒂亚（夏日通常)",
-   "zh_tw": "帕媞亞"
+   "zh_tw": "帕媞亞",
+   "added": "2018/09/27"
   },
   "110336_01": {
    "en_us": "Delphi",
    "ja_jp": "デルフィ",
    "zh_cn": "德尔菲",
-   "zh_tw": "德菲"
+   "zh_tw": "德菲",
+   "added": "2018/09/27"
   },
   "110337_01": {
    "en_us": "Cassandra",
    "ja_jp": "カサンドラ",
    "zh_cn": "卡珊德拉",
-   "zh_tw": "卡珊德拉"
+   "zh_tw": "卡珊德拉",
+   "added": "2018/09/27"
   },
   "110337_02": {
    "en_us": "Cassandra (Normal)",
    "ja_jp": "カサンドラ",
    "zh_cn": "卡珊德拉（通常)",
-   "zh_tw": "卡珊德拉"
+   "zh_tw": "卡珊德拉",
+   "added": "2018/09/27"
   },
   "110337_03": {
    "en_us": "Yukata Cassandra",
    "ja_jp": "カサンドラ（浴衣Ver.）",
    "zh_cn": "卡珊德拉（浴衣Ver.）",
-   "zh_tw": "卡珊德拉（浴衣Ver.）"
+   "zh_tw": "卡珊德拉（浴衣Ver.）",
+   "added": "2018/09/27"
   },
   "110337_04": {
    "en_us": "Cassandra (Yukata Normal)",
    "ja_jp": "カサンドラ",
    "zh_cn": "卡珊德拉（浴衣通常)",
-   "zh_tw": "卡珊德拉"
+   "zh_tw": "卡珊德拉",
+   "added": "2018/09/27"
   },
   "110340_01": {
    "en_us": "Noelle",
    "ja_jp": "ノエル",
    "zh_cn": "诺艾尔",
-   "zh_tw": "諾艾兒"
+   "zh_tw": "諾艾兒",
+   "added": "2018/09/27"
   },
   "110341_01": {
    "en_us": "Akasha",
    "ja_jp": "アカーシャ",
    "zh_cn": "阿加莎",
-   "zh_tw": "阿迦奢"
+   "zh_tw": "阿迦奢",
+   "added": "2018/09/27"
   },
   "110341_02": {
    "en_us": "Akasha (School)",
    "ja_jp": "アカーシャ",
    "zh_cn": "阿加莎（研究所)",
-   "zh_tw": "阿迦奢"
+   "zh_tw": "阿迦奢",
+   "added": "2018/09/27"
   },
   "110342_01": {
    "en_us": "Chelsea",
    "ja_jp": "チェルシー",
    "zh_cn": "切尔茜",
-   "zh_tw": "雀兒喜"
+   "zh_tw": "雀兒喜",
+   "added": "2018/09/27"
   },
   "110342_02": {
    "en_us": "Chelsea (Normal)",
    "ja_jp": "チェルシー",
    "zh_cn": "切尔茜（通常)",
-   "zh_tw": "雀兒喜"
+   "zh_tw": "雀兒喜",
+   "added": "2018/09/27"
   },
   "110343_01": {
    "en_us": "Durant",
    "ja_jp": "デュラルド",
    "zh_cn": "杜拉尔德",
-   "zh_tw": "德拉魯德"
+   "zh_tw": "德拉魯德",
+   "added": "2018/09/27"
   },
   "110344_01": {
    "en_us": "Yuya",
    "ja_jp": "ユーヤ",
    "zh_cn": "勇也",
-   "zh_tw": "勇也"
+   "zh_tw": "勇也",
+   "added": "2018/09/27"
   },
   "110344_02": {
    "en_us": "Yuya (Normal)",
    "ja_jp": "ユーヤ",
    "zh_cn": "勇也（通常)",
-   "zh_tw": "勇也"
+   "zh_tw": "勇也",
+   "added": "2018/09/27"
   },
   "110344_03": {
    "en_us": "Yuya (Normal)",
    "ja_jp": "ユーヤ",
    "zh_cn": "勇也（通常)",
-   "zh_tw": "勇也"
+   "zh_tw": "勇也",
+   "added": "2018/09/27"
   },
   "110344_04": {
    "en_us": "Yuya (Normal)",
    "ja_jp": "ユーヤ",
    "zh_cn": "勇也（通常)",
-   "zh_tw": "勇也"
+   "zh_tw": "勇也",
+   "added": "2018/09/27"
   },
   "110345_01": {
    "en_us": "Mitsuhide",
    "ja_jp": "ミツヒデ",
    "zh_cn": "光秀",
-   "zh_tw": "光秀"
+   "zh_tw": "光秀",
+   "added": "2018/09/27"
   },
   "110345_02": {
    "en_us": "Mitsuhide (Normal)",
    "ja_jp": "ミツヒデ",
    "zh_cn": "光秀（通常)",
-   "zh_tw": "光秀"
+   "zh_tw": "光秀",
+   "added": "2018/09/27"
   },
   "110346_01": {
    "en_us": "Nobunaga",
    "ja_jp": "ノブナガ",
    "zh_cn": "信长",
-   "zh_tw": "信長"
+   "zh_tw": "信長",
+   "added": "2018/09/27"
   },
   "110347_01": {
    "en_us": "Chitose",
    "ja_jp": "チトセ",
    "zh_cn": "千岁",
-   "zh_tw": "千歲"
+   "zh_tw": "千歲",
+   "added": "2018/09/27"
   },
   "110348_01": {
    "en_us": "Hanabusa",
    "ja_jp": "ハナブサ",
    "zh_cn": "花房",
-   "zh_tw": "花房"
+   "zh_tw": "花房",
+   "added": "2018/09/27"
   },
   "110349_01": {
    "en_us": "Lathna",
    "ja_jp": "ラトニー",
    "zh_cn": "拉托妮",
-   "zh_tw": "菈特妮"
+   "zh_tw": "菈特妮",
+   "added": "2018/09/27"
   },
   "110349_02": {
    "en_us": "Lathna (Normal)",
    "ja_jp": "ラトニー",
    "zh_cn": "拉托妮（通常)",
-   "zh_tw": "菈特妮"
+   "zh_tw": "菈特妮",
+   "added": "2018/09/27"
   },
   "110349_03": {
    "en_us": "Lathna (Yukata)",
    "ja_jp": "ラトニー",
    "zh_cn": "拉托妮（浴衣)",
-   "zh_tw": "菈特妮"
+   "zh_tw": "菈特妮",
+   "added": "2018/09/27"
   },
   "110350_01": {
    "en_us": "Joachim",
    "ja_jp": "ヨアキム",
    "zh_cn": "约亚希姆",
-   "zh_tw": "約爾希姆"
+   "zh_tw": "約爾希姆",
+   "added": "2018/09/27"
   },
   "110351_01": {
    "en_us": "Jiang Ziya",
    "ja_jp": "タイコウボウ",
    "zh_cn": "太公望",
-   "zh_tw": "太公望"
+   "zh_tw": "太公望",
+   "added": "2018/09/27"
   },
   "110352_01": {
    "en_us": "Tobias",
    "ja_jp": "トライツ",
    "zh_cn": "德莱茨",
-   "zh_tw": "特萊茲"
+   "zh_tw": "特萊茲",
+   "added": "2018/09/27"
   },
   "110352_02": {
    "en_us": "Tobias (Normal)",
    "ja_jp": "トライツ",
    "zh_cn": "德莱茨（通常)",
-   "zh_tw": "特萊茲"
+   "zh_tw": "特萊茲",
+   "added": "2018/09/27"
   },
   "110353_01": {
    "en_us": "Kirsty",
    "ja_jp": "キルスティ",
    "zh_cn": "科丝蒂",
-   "zh_tw": "基魯斯緹"
+   "zh_tw": "基魯斯緹",
+   "added": "2018/09/27"
   },
   "110355_01": {
    "en_us": "Lazry",
    "ja_jp": "ラズリー",
    "zh_cn": "拉兹莉",
-   "zh_tw": "菈茲莉"
+   "zh_tw": "菈茲莉",
+   "added": "2018/09/27"
   },
   "110356_01": {
    "en_us": "Gauld",
    "ja_jp": "ゴルド",
    "zh_cn": "戈尔德",
-   "zh_tw": "格爾多"
+   "zh_tw": "格爾多",
+   "added": "2018/09/27"
   },
   "110357_01": {
    "en_us": "Nadine",
    "ja_jp": "ナディーン",
    "zh_cn": "娜迪茵",
-   "zh_tw": "娜汀"
+   "zh_tw": "娜汀",
+   "added": "2018/09/27"
   },
   "110358_01": {
    "en_us": "Sharena",
    "ja_jp": "シャロン",
    "zh_cn": "夏蓉",
-   "zh_tw": "夏蓉"
+   "zh_tw": "夏蓉",
+   "added": "2018/09/27"
   },
   "110358_02": {
    "en_us": "Sharena (Normal)",
    "ja_jp": "シャロン",
    "zh_cn": "夏蓉（通常)",
-   "zh_tw": "夏蓉"
+   "zh_tw": "夏蓉",
+   "added": "2018/09/27"
   },
   "110359_01": {
    "en_us": "Chrom",
    "ja_jp": "クロム",
    "zh_cn": "库洛姆",
-   "zh_tw": "庫洛武"
+   "zh_tw": "庫洛武",
+   "added": "2018/09/27"
   },
   "110360_01": {
    "en_us": "Tiki",
    "ja_jp": "チキ",
    "zh_cn": "琪姬",
-   "zh_tw": "琪姬"
+   "zh_tw": "琪姬",
+   "added": "2018/09/27"
   },
   "110360_02": {
    "en_us": "Tiki (Normal)",
    "ja_jp": "チキ",
    "zh_cn": "琪姬（通常)",
-   "zh_tw": "琪姬"
+   "zh_tw": "琪姬",
+   "added": "2018/09/27"
   },
   "110361_01": {
    "en_us": "Peony",
    "ja_jp": "ピアニー",
    "zh_cn": "皮亚尼",
-   "zh_tw": "皮亞尼"
+   "zh_tw": "皮亞尼",
+   "added": "2018/09/27"
   },
   "110362_01": {
    "en_us": "Yurius",
    "ja_jp": "ユリウス",
    "zh_cn": "尤里乌斯",
-   "zh_tw": "尤里烏斯"
+   "zh_tw": "尤里烏斯",
+   "added": "2018/09/27"
   },
   "110362_02": {
    "en_us": "Yurius (Seed of the Abyss)",
    "ja_jp": "ユリウス",
    "zh_cn": "尤里乌斯（深渊之种)",
-   "zh_tw": "尤里烏斯"
+   "zh_tw": "尤里烏斯",
+   "added": "2018/09/27"
   },
   "110363_01": {
    "en_us": "Eugene",
    "ja_jp": "ユージン",
    "zh_cn": "尤金",
-   "zh_tw": "幽吉"
+   "zh_tw": "幽吉",
+   "added": "2018/09/27"
   },
   "110363_02": {
    "en_us": "Eugene (Normal)",
    "ja_jp": "ユージン",
    "zh_cn": "尤金（通常)",
-   "zh_tw": "幽吉"
+   "zh_tw": "幽吉",
+   "added": "2018/09/27"
   },
   "110364_01": {
    "en_us": "Catherine",
    "ja_jp": "カトリーヌ",
    "zh_cn": "凯瑟琳",
-   "zh_tw": "凱瑟琳"
+   "zh_tw": "凱瑟琳",
+   "added": "2018/09/27"
   },
   "110365_01": {
    "en_us": "Nevin",
    "ja_jp": "ネヴィン",
    "zh_cn": "奈文",
-   "zh_tw": "涅因"
+   "zh_tw": "涅因",
+   "added": "2020/08/29"
   },
   "110365_02": {
    "en_us": "Nevin (Sigil)",
    "ja_jp": "ネヴィン",
    "zh_cn": "奈文（圣痕枷锁)",
-   "zh_tw": "涅因"
+   "zh_tw": "涅因",
+   "added": "2020/08/29"
   },
   "110366_01": {
    "en_us": "Pinon",
    "ja_jp": "ピノン",
    "zh_cn": "皮诺",
-   "zh_tw": "琵儂"
+   "zh_tw": "琵儂",
+   "added": "2020/08/29"
   },
   "110366_02": {
    "en_us": "Pinon (Normal)",
    "ja_jp": "ピノン",
    "zh_cn": "皮诺（通常)",
-   "zh_tw": "琵儂"
+   "zh_tw": "琵儂",
+   "added": "2020/08/29"
   },
   "110366_03": {
    "en_us": "Pinon (Sigil)",
    "ja_jp": "ピノン",
    "zh_cn": "皮诺（圣痕枷锁)",
-   "zh_tw": "琵儂"
+   "zh_tw": "琵儂",
+   "added": "2020/08/29"
   },
   "110367_01": {
    "en_us": "Ilia",
@@ -2182,1195 +2538,1394 @@
    "en_us": "Church Staff (Male)",
    "ja_jp": "",
    "zh_cn": "教会人员（男)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120007_01": {
    "en_us": "Fiend",
    "ja_jp": "魔獣",
    "zh_cn": "魔兽",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120008_01": {
    "en_us": "Soldier",
    "ja_jp": "",
    "zh_cn": "士兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120009_01": {
    "en_us": "Heavy Armor",
    "ja_jp": "",
    "zh_cn": "重甲兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120010_01": {
    "en_us": "Church Staff (Male)",
    "ja_jp": "",
    "zh_cn": "教会人员（男)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120011_01": {
    "en_us": "Sylvan Elder",
    "ja_jp": "",
    "zh_cn": "森隐族长老",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120012_01": {
    "en_us": "Sylvan Woman",
    "ja_jp": "",
    "zh_cn": "森隐族女性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120013_01": {
    "en_us": "Sylvan Male",
    "ja_jp": "",
    "zh_cn": "森隐族男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120014_01": {
    "en_us": "Male",
    "ja_jp": "",
    "zh_cn": "男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120015_01": {
    "en_us": "Female",
    "ja_jp": "",
    "zh_cn": "女性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120016_01": {
    "en_us": "Little Girl",
    "ja_jp": "",
    "zh_cn": "小女孩",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120017_01": {
    "en_us": "Little Boy",
    "ja_jp": "",
    "zh_cn": "小男孩",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120018_01": {
    "en_us": "Female",
    "ja_jp": "",
    "zh_cn": "女性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120019_01": {
    "en_us": "Male",
    "ja_jp": "",
    "zh_cn": "男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120020_01": {
    "en_us": "Elderly (Female)",
    "ja_jp": "",
    "zh_cn": "老人（女)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120021_01": {
    "en_us": "Old Man (Male)",
    "ja_jp": "",
    "zh_cn": "老人（男)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120022_01": {
    "en_us": "Chruch Staff (Male)",
    "ja_jp": "",
    "zh_cn": "教会人员（男)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120024_01": {
    "en_us": "Matilda",
    "ja_jp": "マチルダ",
    "zh_cn": "玛蒂尔达",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120025_01": {
    "en_us": "Ninja",
    "ja_jp": "",
    "zh_cn": "忍者",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120026_01": {
    "en_us": "Gustav",
    "ja_jp": "ギュスタフ",
    "zh_cn": "居斯塔夫",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120027_01": {
    "en_us": "Deer",
    "ja_jp": "",
    "zh_cn": "鹿",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120028_01": {
    "en_us": "Bear",
    "ja_jp": "",
    "zh_cn": "熊",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120029_01": {
    "en_us": "Squirrel",
    "ja_jp": "",
    "zh_cn": "松鼠",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120030_01": {
    "en_us": "Bird",
    "ja_jp": "",
    "zh_cn": "鸟",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120031_01": {
    "en_us": "Fiend Leader",
    "ja_jp": "魔獣の親玉",
    "zh_cn": "魔兽首领",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120032_01": {
    "en_us": "Bandit (Male)",
    "ja_jp": "",
    "zh_cn": "土匪（男)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120033_01": {
    "en_us": "Bandit (Male)",
    "ja_jp": "",
    "zh_cn": "土匪（男)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120034_01": {
    "en_us": "Fydon & Felyx",
    "ja_jp": "ペロ＆チロ",
    "zh_cn": "佩罗&奇罗",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120034_02": {
    "en_us": "Fydon & Felyx",
    "ja_jp": "ペロ＆チロ",
    "zh_cn": "佩罗&奇罗",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120034_03": {
    "en_us": "Fydon & Felyx (Dragonyule)",
    "ja_jp": "ペロ＆チロ",
    "zh_cn": "佩罗&奇罗（星龙祭)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120034_04": {
    "en_us": "Fydon & Felyx (Dragonyule)",
    "ja_jp": "ペロ＆チロ",
    "zh_cn": "佩罗&奇罗（星龙祭)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120035_01": {
    "en_us": "Guard",
    "ja_jp": "",
    "zh_cn": "守卫",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120036_01": {
    "en_us": "Bandit (Female)",
    "ja_jp": "",
    "zh_cn": "土匪（女)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120037_01": {
    "en_us": "Noble (Female)",
    "ja_jp": "",
    "zh_cn": "贵族（女)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120038_01": {
    "en_us": "Sylvan Boy",
    "ja_jp": "",
    "zh_cn": "森隐族小男孩",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120039_01": {
    "en_us": "Sylvan Little Girl",
    "ja_jp": "",
    "zh_cn": "森隐族小女孩",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120040_01": {
    "en_us": "Noble (Male)",
    "ja_jp": "",
    "zh_cn": "贵族（男)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120041_01": {
    "en_us": "Soldier",
    "ja_jp": "",
    "zh_cn": "士兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120042_01": {
    "en_us": "Farmer",
    "ja_jp": "",
    "zh_cn": "农民",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120043_01": {
    "en_us": "Bandit (Male)",
    "ja_jp": "",
    "zh_cn": "土匪（男)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120044_01": {
    "en_us": "Mystery Man",
    "ja_jp": "",
    "zh_cn": "神秘人",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120047_02": {
    "en_us": "Aquatic Cyclops",
    "ja_jp": "",
    "zh_cn": "水波独眼巨人",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120048_03": {
    "en_us": "Storm Sentinel",
    "ja_jp": "",
    "zh_cn": "暴风石",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120048_04": {
    "en_us": "Radiant Sentinel",
    "ja_jp": "",
    "zh_cn": "闪光石",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120049_04": {
    "en_us": "Manticore",
    "ja_jp": "",
    "zh_cn": "蝎狮·雷",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120050_01": {
    "en_us": "Phraeganoth",
    "ja_jp": "",
    "zh_cn": "熔岩巨兽",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120051_01": {
    "en_us": "Hypnos",
    "ja_jp": "",
    "zh_cn": "修普诺斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120052_01": {
    "en_us": "Aspidochelone",
    "ja_jp": "",
    "zh_cn": "阿斯比德凯隆",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120053_01": {
    "en_us": "Thanatos",
    "ja_jp": "",
    "zh_cn": "塔纳托斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120055_01": {
    "en_us": "Sylvan Male",
    "ja_jp": "",
    "zh_cn": "森隐族男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120056_01": {
    "en_us": "Sylvan Woman",
    "ja_jp": "",
    "zh_cn": "森隐族女性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120057_01": {
    "en_us": "Luca & Sarisse Father",
    "ja_jp": "",
    "zh_cn": "卢卡&希里丝的父亲",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120058_01": {
    "en_us": "Luca & Sarisse Mother",
    "ja_jp": "",
    "zh_cn": "卢卡&希里丝的母亲",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120059_01": {
    "en_us": "The Doctor",
    "ja_jp": "",
    "zh_cn": "博士",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120060_01": {
    "en_us": "Syndicate Soldier",
    "ja_jp": "",
    "zh_cn": "结社干部",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120061_01": {
    "en_us": "Little Boy",
    "ja_jp": "",
    "zh_cn": "小男孩",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120062_01": {
    "en_us": "Little Girl",
    "ja_jp": "",
    "zh_cn": "小女孩",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120063_01": {
    "en_us": "Father Nikolai",
    "ja_jp": "ニクス司祭",
    "zh_cn": "尼克斯祭司",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120064_01": {
    "en_us": "Church Staff (Female)",
    "ja_jp": "",
    "zh_cn": "教会人员（女)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120065_01": {
    "en_us": "Cyclops (King Archeole)",
    "ja_jp": "",
    "zh_cn": "独眼食人王",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120066_01": {
    "en_us": "Rabbit",
    "ja_jp": "",
    "zh_cn": "兔子",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120066_02": {
    "en_us": "Rabbit",
    "ja_jp": "",
    "zh_cn": "兔子",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120067_01": {
    "en_us": "Lathna (NPC)",
    "ja_jp": "ラトニー",
    "zh_cn": "拉托妮（NPC)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120068_01": {
    "en_us": "Summer Man",
    "ja_jp": "",
    "zh_cn": "夏日男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120069_01": {
    "en_us": "Summer Man",
    "ja_jp": "",
    "zh_cn": "夏日男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120070_01": {
    "en_us": "Summer Man",
    "ja_jp": "",
    "zh_cn": "夏日男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120071_01": {
    "en_us": "Summer Man",
    "ja_jp": "",
    "zh_cn": "夏日男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120072_01": {
    "en_us": "Summer Woman",
    "ja_jp": "",
    "zh_cn": "夏日女性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120073_01": {
    "en_us": "Summer Boy",
    "ja_jp": "",
    "zh_cn": "夏日小男孩",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120074_01": {
    "en_us": "Duskhawk",
    "ja_jp": "フローリデル",
    "zh_cn": "鹰",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120075_01": {
    "en_us": "Summer Woman",
    "ja_jp": "",
    "zh_cn": "夏日女性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120076_01": {
    "en_us": "Wu Kong (NPC)",
    "ja_jp": "ゴクウ",
    "zh_cn": "悟空（NPC)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120076_02": {
    "en_us": "Wu Kong (NPC Tight Hoop)",
    "ja_jp": "",
    "zh_cn": "悟空（紧箍)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120078_01": {
    "en_us": "Heavy Armor",
    "ja_jp": "",
    "zh_cn": "重甲兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120079_01": {
    "en_us": "Butler",
    "ja_jp": "",
    "zh_cn": "管家",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120080_01": {
    "en_us": "Soldier",
    "ja_jp": "",
    "zh_cn": "士兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120081_01": {
    "en_us": "Heavy Armor",
    "ja_jp": "",
    "zh_cn": "重甲兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120082_01": {
    "en_us": "Barbary",
    "ja_jp": "",
    "zh_cn": "巴巴里",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120083_01": {
    "en_us": "Pumpkin Cyclops",
    "ja_jp": "",
    "zh_cn": "南瓜独眼巨人",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120085_01": {
    "en_us": "Domingo",
    "ja_jp": "ディンゴ",
    "zh_cn": "丁格",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120091_01": {
    "en_us": "Vendra",
    "ja_jp": "ベンドラ",
    "zh_cn": "本多拉",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120091_02": {
    "en_us": "Butler",
    "ja_jp": "",
    "zh_cn": "管家",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120092_01": {
    "en_us": "Farmer",
    "ja_jp": "",
    "zh_cn": "农民",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120093_01": {
    "en_us": "Mouse",
    "ja_jp": "",
    "zh_cn": "鼠鼠",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120094_01": {
    "en_us": "Sabnock",
    "ja_jp": "",
    "zh_cn": "斯伯纳克",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120095_01": {
    "en_us": "Male Resident (Peng Lai)",
    "ja_jp": "",
    "zh_cn": "蓬莱小镇男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120096_01": {
    "en_us": "Female Resident (Peng Lai)",
    "ja_jp": "",
    "zh_cn": "蓬莱小镇女性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120097_01": {
    "en_us": "Boy (Peng Lai)",
    "ja_jp": "",
    "zh_cn": "蓬莱小镇小男孩",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120098_01": {
    "en_us": "Su Fang's Grandfather",
    "ja_jp": "",
    "zh_cn": "苏方的祖父",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120099_01": {
    "en_us": "Su Fang's Grandmother",
    "ja_jp": "",
    "zh_cn": "苏方的祖母",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120100_01": {
    "en_us": "Mao Mao",
    "ja_jp": "マオマオ",
    "zh_cn": "毛毛",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120101_01": {
    "en_us": "Xu Fu",
    "ja_jp": "",
    "zh_cn": "徐福",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120102_01": {
    "en_us": "Fa Ming",
    "ja_jp": "",
    "zh_cn": "法明",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120103_01": {
    "en_us": "Wu Wei",
    "ja_jp": "",
    "zh_cn": "无为",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120104_01": {
    "en_us": "Lazry (NPC)",
    "ja_jp": "",
    "zh_cn": "拉兹莉（NPC)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120105_01": {
    "en_us": "Guildmaster",
    "ja_jp": "",
    "zh_cn": "罗卡族男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120106_01": {
    "en_us": "Cat",
    "ja_jp": "",
    "zh_cn": "猫",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120106_02": {
    "en_us": "Cat",
    "ja_jp": "",
    "zh_cn": "猫",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120107_01": {
    "en_us": "Patia (NPC)",
    "ja_jp": "パティア",
    "zh_cn": "帕蒂亚（NPC)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120108_01": {
    "en_us": "Mercenary",
    "ja_jp": "",
    "zh_cn": "佣兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120109_01": {
    "en_us": "Little Girl",
    "ja_jp": "",
    "zh_cn": "小女孩",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120110_01": {
    "en_us": "Little Boy",
    "ja_jp": "",
    "zh_cn": "小男孩",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120111_01": {
    "en_us": "Picaro",
    "ja_jp": "ピカロ",
    "zh_cn": "比卡罗",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120112_01": {
    "en_us": "Valfarre",
    "ja_jp": "",
    "zh_cn": "瓦尔法雷",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120113_01": {
    "en_us": "Sylvan Male",
    "ja_jp": "",
    "zh_cn": "森隐族男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120114_01": {
    "en_us": "Sylvan Woman",
    "ja_jp": "",
    "zh_cn": "森隐族女性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120115_01": {
    "en_us": "Sylvan Elder",
    "ja_jp": "",
    "zh_cn": "森隐族长老",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120116_01": {
    "en_us": "Rolf",
    "ja_jp": "ロルフ",
    "zh_cn": "洛夫",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120118_01": {
    "en_us": "Cardinal",
    "ja_jp": "枢機卿",
    "zh_cn": "枢机主教",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120119_01": {
    "en_us": "Loki",
    "ja_jp": "ロキ",
    "zh_cn": "洛基",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120120_01": {
    "en_us": "Fiend",
    "ja_jp": "魔獣",
    "zh_cn": "魔兽",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120122_01": {
    "en_us": "Silver Slime",
    "ja_jp": "",
    "zh_cn": "白银史莱姆",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120122_02": {
    "en_us": "Water Slime",
    "ja_jp": "",
    "zh_cn": "水史莱姆",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120122_03": {
    "en_us": "Magma Slime",
    "ja_jp": "",
    "zh_cn": "岩浆史莱姆",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120122_04": {
    "en_us": "Ice Slime",
    "ja_jp": "",
    "zh_cn": "冰雪史莱姆",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120122_05": {
    "en_us": "Valentine Slime",
    "ja_jp": "",
    "zh_cn": "情人节史莱姆",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120122_06": {
    "en_us": "Golden Slime",
    "ja_jp": "",
    "zh_cn": "黄金史莱姆",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120123_01": {
    "en_us": "Snow",
    "ja_jp": "マシロナ",
    "zh_cn": "小白",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120124_01": {
    "en_us": "Ashe",
    "ja_jp": "ハイロナ",
    "zh_cn": "小灰",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120125_01": {
    "en_us": "Qitian Dasheng",
    "ja_jp": "",
    "zh_cn": "齐天大圣",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120126_01": {
    "en_us": "Knight",
    "ja_jp": "",
    "zh_cn": "骑士",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120127_01": {
    "en_us": "Soldier",
    "ja_jp": "",
    "zh_cn": "士兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120128_01": {
    "en_us": "Soldier",
    "ja_jp": "",
    "zh_cn": "士兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120129_01": {
    "en_us": "Wedding Contest Team",
    "ja_jp": "",
    "zh_cn": "婚礼较量队伍",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120130_01": {
    "en_us": "Wedding Contest Team",
    "ja_jp": "",
    "zh_cn": "婚礼较量队伍",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120131_01": {
    "en_us": "Wedding Contest Team",
    "ja_jp": "",
    "zh_cn": "婚礼较量队伍",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120132_01": {
    "en_us": "Shion",
    "ja_jp": "シオン",
    "zh_cn": "希恩",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120133_01": {
    "en_us": "Ghost",
    "ja_jp": "",
    "zh_cn": "幽灵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120134_01": {
    "en_us": "Mym (First Generation)",
    "ja_jp": "ムム",
    "zh_cn": "穆穆（一代目)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120135_01": {
    "en_us": "Mascula",
    "ja_jp": "マスキュラ",
    "zh_cn": "马斯古拉",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120135_02": {
    "en_us": "Mascula (Heart Out)",
    "ja_jp": "マスキュラ",
    "zh_cn": "马斯古拉（掏心)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120135_03": {
    "en_us": "Mascula (Heart Out)",
    "ja_jp": "マスキュラ",
    "zh_cn": "马斯古拉（掏心)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120136_01": {
    "en_us": "Douleur",
    "ja_jp": "ルグレ",
    "zh_cn": "卢格烈（基基)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120137_01": {
    "en_us": "Siren",
    "ja_jp": "",
    "zh_cn": "塞壬",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120138_01": {
    "en_us": "Siren (Summer)",
    "ja_jp": "",
    "zh_cn": "塞壬（夏日)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120139_01": {
    "en_us": "Chronos (Small)",
    "ja_jp": "クロノス",
    "zh_cn": "克洛诺斯（幼龙)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120140_01": {
    "en_us": "Chronos",
    "ja_jp": "クロノス",
    "zh_cn": "克洛诺斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120142_01": {
    "en_us": "Tobias (NPC)",
    "ja_jp": "トライツ",
    "zh_cn": "德莱茨（NPC)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120143_01": {
    "en_us": "Pope",
    "ja_jp": "教皇",
    "zh_cn": "教皇",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120143_02": {
    "en_us": "Pope",
    "ja_jp": "教皇",
    "zh_cn": "教皇",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120144_01": {
    "en_us": "Ulthar",
    "ja_jp": "ウルタール",
    "zh_cn": "乌尔塔",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120145_01": {
    "en_us": "Primia",
    "ja_jp": "プリミア",
    "zh_cn": "普莉米亚",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120146_01": {
    "en_us": "Erasmus",
    "ja_jp": "",
    "zh_cn": "埃尔默",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120147_01": {
    "en_us": "Farmer",
    "ja_jp": "",
    "zh_cn": "农民",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120148_01": {
    "en_us": "Chariot",
    "ja_jp": "チャリオッツ",
    "zh_cn": "查理奥托",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120149_01": {
    "en_us": "Red Champ",
    "ja_jp": "レッドチャンプ",
    "zh_cn": "红冠",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120150_01": {
    "en_us": "Chick",
    "ja_jp": "",
    "zh_cn": "小鸡",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120151_01": {
    "en_us": "Android",
    "ja_jp": "",
    "zh_cn": "人偶",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120151_02": {
    "en_us": "Android & Android & Android",
    "ja_jp": "",
    "zh_cn": "人偶&人偶&人偶",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120153_01": {
    "en_us": "Fiend",
    "ja_jp": "魔獣",
    "zh_cn": "魔兽",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120154_01": {
    "en_us": "Sunrise Country Male",
    "ja_jp": "",
    "zh_cn": "日出之国男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120155_01": {
    "en_us": "Sunrise County Women",
    "ja_jp": "",
    "zh_cn": "日出之国女性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120156_01": {
    "en_us": "Northland Soldier",
    "ja_jp": "",
    "zh_cn": "北国士兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120156_02": {
    "en_us": "Northland Soldier",
    "ja_jp": "",
    "zh_cn": "北国士兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120157_01": {
    "en_us": "Felyne",
    "ja_jp": "アイルー",
    "zh_cn": "艾露猫",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120158_01": {
    "en_us": "Felyne",
    "ja_jp": "アイルー",
    "zh_cn": "艾露猫",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120158_02": {
    "en_us": "Felyne",
    "ja_jp": "アイルー",
    "zh_cn": "艾露猫",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120159_01": {
    "en_us": "Soaratorium Gal",
    "ja_jp": "龍識船の受付嬢",
    "zh_cn": "龙识船接待员",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120160_01": {
    "en_us": "Chief Researcher",
    "ja_jp": "龍歴院の主席研究員",
    "zh_cn": "龙历院首席研究员",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120161_01": {
    "en_us": "Wyventurer",
    "ja_jp": "調査隊の隊長",
    "zh_cn": "调查队队长",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120162_01": {
    "en_us": "Soldier",
    "ja_jp": "",
    "zh_cn": "士兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120163_01": {
    "en_us": "Soldier",
    "ja_jp": "",
    "zh_cn": "士兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120164_01": {
    "en_us": "Sunrise Snapper",
    "ja_jp": "",
    "zh_cn": "鲷鱼",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120165_01": {
    "en_us": "Dorothy",
    "ja_jp": "ドロシー",
    "zh_cn": "多萝西",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120166_01": {
    "en_us": "Templar",
    "ja_jp": "",
    "zh_cn": "重甲兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120167_01": {
    "en_us": "Phoebus",
    "ja_jp": "",
    "zh_cn": "福波斯兵",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120168_01": {
    "en_us": "Damos",
    "ja_jp": "",
    "zh_cn": "戴莫斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120169_01": {
    "en_us": "Angie",
    "ja_jp": "エンジェ",
    "zh_cn": "安洁",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120170_01": {
    "en_us": "Bareed",
    "ja_jp": "バイライド",
    "zh_cn": "拜莱德",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120171_01": {
    "en_us": "Rokkan Male",
    "ja_jp": "",
    "zh_cn": "罗卡族男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120172_01": {
    "en_us": "Rokkan Male",
    "ja_jp": "",
    "zh_cn": "罗卡族男性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120173_01": {
    "en_us": "Rokkan Girl",
    "ja_jp": "",
    "zh_cn": "罗卡族女性",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120174_01": {
    "en_us": "Nimis",
    "ja_jp": "",
    "zh_cn": "古鲁曼",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120175_01": {
    "en_us": "Ninja",
    "ja_jp": "",
    "zh_cn": "忍者",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120176_01": {
    "en_us": "Small Chestnut",
    "ja_jp": "",
    "zh_cn": "小荠",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120177_01": {
    "en_us": "Carmen",
    "ja_jp": "カルティ",
    "zh_cn": "卡尔提",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120178_01": {
    "en_us": "Marvelous Naoto",
    "ja_jp": "マーベラス☆ナオト",
    "zh_cn": "奇幻☆直人",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120179_01": {
    "en_us": "Sandy",
    "ja_jp": "サンディ",
    "zh_cn": "珊笛",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120180_01": {
    "en_us": "Becky",
    "ja_jp": "ベッキー",
    "zh_cn": "贝琪",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120181_01": {
    "en_us": "Sam",
    "ja_jp": "スゥ",
    "zh_cn": "斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120182_01": {
    "en_us": "Styx",
    "ja_jp": "ステュクス",
    "zh_cn": "斯堤克斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120183_01": {
    "en_us": "Thórr",
    "ja_jp": "トール",
    "zh_cn": "托尔（FEH)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120184_01": {
    "en_us": "Spellwyrm",
    "ja_jp": "魔竜",
    "zh_cn": "魔龙",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120185_01": {
    "en_us": "Mei Hou Wang",
    "ja_jp": "",
    "zh_cn": "美猴王",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120185_02": {
    "en_us": "Mei Hou Wang (BOSS)",
    "ja_jp": "",
    "zh_cn": "美猴王（BOSS)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120186_01": {
    "en_us": "Knight",
    "ja_jp": "",
    "zh_cn": "骑士",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120187_01": {
    "en_us": "Core of origin",
    "ja_jp": "",
    "zh_cn": "起源之核",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120187_02": {
    "en_us": "Core of origin (Activation)",
    "ja_jp": "",
    "zh_cn": "起源之核（启动)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120188_01": {
    "en_us": "Styx",
    "ja_jp": "ステュクス",
    "zh_cn": "老板娘斯堤克斯",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120189_01": {
    "en_us": "Man in Black",
    "ja_jp": "黒服",
    "zh_cn": "黑衣人",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120190_01": {
    "en_us": "Cat",
    "ja_jp": "",
    "zh_cn": "猫",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120191_01": {
    "en_us": "Peony & Chrom & Tiki",
    "ja_jp": "",
    "zh_cn": "皮亚尼&库洛姆&琪姬",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120191_02": {
    "en_us": "Sharena & Alfonse",
    "ja_jp": "",
    "zh_cn": "阿尔冯斯&夏蓉",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120193_01": {
    "en_us": "Jindou Yun",
    "ja_jp": "觔斗雲",
    "zh_cn": "筋斗云",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120194_01": {
    "en_us": "Graht",
    "ja_jp": "",
    "zh_cn": "古拉特",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120195_01": {
    "en_us": "Sandalphon",
    "ja_jp": "",
    "zh_cn": "圣德芬",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2020/08/29"
   },
   "120198_01": {
    "en_us": "Young Dunefolk Man",
    "ja_jp": "砂の民の青年",
    "zh_cn": "沙之民青年",
-   "zh_tw": "沙之民青年"
+   "zh_tw": "沙之民青年",
+   "added": "2020/09/11"
   },
   "120199_01": {
    "en_us": "Dunefolk Woman",
    "ja_jp": "砂の民の女性",
    "zh_cn": "沙之民女子",
-   "zh_tw": "沙之民女性"
+   "zh_tw": "沙之民女性",
+   "added": "2020/09/11"
   },
   "120200_01": {
    "en_us": "Scylla",
    "ja_jp": "",
    "zh_cn": "斯库拉",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "120201_01": {
    "en_us": "Augus",
@@ -3390,463 +3945,540 @@
    "en_us": "Elysium",
    "ja_jp": "エリュシオン",
    "zh_cn": "圣域龙",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "200008_01": {
    "en_us": "Fafnir Roy III",
    "ja_jp": "ファフニ・ロイ三世",
    "zh_cn": "法夫尼·罗伊三世",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "200009_01": {
    "en_us": "Gala Mars",
    "ja_jp": "マーズ（ドラフェスVer.）",
    "zh_cn": "玛斯（Fes限定Ver.）",
-   "zh_tw": "瑪斯（龍絆日Ver.）"
+   "zh_tw": "瑪斯（龍絆日Ver.）",
+   "added": "2018/09/27"
   },
   "200010_01": {
    "en_us": "Chthonius",
    "ja_jp": "プルートー",
    "zh_cn": "普鲁托",
-   "zh_tw": "普魯托"
+   "zh_tw": "普魯托",
+   "added": "2018/09/27"
   },
   "200011_01": {
    "en_us": "Chthonius (Demon God)",
    "ja_jp": "",
    "zh_cn": "普鲁托（魔神)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "200012_01": {
    "en_us": "Aldred (Dragon Form)",
    "ja_jp": "",
    "zh_cn": "阿德尔潘（强袭)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "200013_01": {
    "en_us": "Cat Sith",
    "ja_jp": "ケットシー",
    "zh_cn": "凯特西",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "210001_01": {
    "en_us": "Midgardsormr",
    "ja_jp": "ミドガルズオルム",
    "zh_cn": "耶梦加得",
-   "zh_tw": "耶夢加得"
+   "zh_tw": "耶夢加得",
+   "added": "2018/09/27"
   },
   "210002_01": {
    "en_us": "Brunhilda",
    "ja_jp": "ブリュンヒルデ",
    "zh_cn": "布伦希尔德",
-   "zh_tw": "布倫希爾德"
+   "zh_tw": "布倫希爾德",
+   "added": "2018/09/27"
   },
   "210003_01": {
    "en_us": "Mercury",
    "ja_jp": "マーキュリー",
    "zh_cn": "墨丘利",
-   "zh_tw": "墨丘利"
+   "zh_tw": "墨丘利",
+   "added": "2018/09/27"
   },
   "210004_01": {
    "en_us": "Jupiter",
    "ja_jp": "ユピテル",
    "zh_cn": "朱庇特",
-   "zh_tw": "朱庇特"
+   "zh_tw": "朱庇特",
+   "added": "2018/09/27"
   },
   "210005_01": {
    "en_us": "Zodiark",
    "ja_jp": "ゾディアーク",
    "zh_cn": "佐迪亚克",
-   "zh_tw": "索狄亞克"
+   "zh_tw": "索狄亞克",
+   "added": "2018/09/27"
   },
   "210006_01": {
    "en_us": "Phoenix",
    "ja_jp": "フェニックス",
    "zh_cn": "菲尼克斯",
-   "zh_tw": "菲尼克斯"
+   "zh_tw": "菲尼克斯",
+   "added": "2018/09/27"
   },
   "210007_01": {
    "en_us": "Ifrit",
    "ja_jp": "イフリート",
    "zh_cn": "伊夫利特",
-   "zh_tw": "伊弗利特"
+   "zh_tw": "伊弗利特",
+   "added": "2018/09/27"
   },
   "210008_01": {
    "en_us": "Poliʻahu",
    "ja_jp": "ポリアフ",
    "zh_cn": "波丽亚芙",
-   "zh_tw": "波莉亞芙"
+   "zh_tw": "波莉亞芙",
+   "added": "2018/09/27"
   },
   "210010_01": {
    "en_us": "Sylvia",
    "ja_jp": "シルヴィア",
    "zh_cn": "希尔维亚",
-   "zh_tw": "希露維亞"
+   "zh_tw": "希露維亞",
+   "added": "2018/09/27"
   },
   "210011_01": {
    "en_us": "Stribog",
    "ja_jp": "ストリボーグ",
    "zh_cn": "斯特利伯格",
-   "zh_tw": "斯特利伯格"
+   "zh_tw": "斯特利伯格",
+   "added": "2018/09/27"
   },
   "210012_01": {
    "en_us": "Unicorn",
    "ja_jp": "ユニコーン",
    "zh_cn": "独角兽",
-   "zh_tw": "獨角獸"
+   "zh_tw": "獨角獸",
+   "added": "2018/09/27"
   },
   "210013_01": {
    "en_us": "Lindworm",
    "ja_jp": "リンドヴルム",
    "zh_cn": "林德巴鲁姆",
-   "zh_tw": "林德沃姆"
+   "zh_tw": "林德沃姆",
+   "added": "2018/09/27"
   },
   "210014_01": {
    "en_us": "Juggernaut",
    "ja_jp": "ジャガーノート",
    "zh_cn": "札格纳特",
-   "zh_tw": "迦喀諾特"
+   "zh_tw": "迦喀諾特",
+   "added": "2018/09/27"
   },
   "210015_01": {
    "en_us": "Silke",
    "ja_jp": "シルキー",
    "zh_cn": "希露姬",
-   "zh_tw": "西爾琪"
+   "zh_tw": "西爾琪",
+   "added": "2018/09/27"
   },
   "210016_01": {
    "en_us": "Agni",
    "ja_jp": "アグニ",
    "zh_cn": "阿格尼",
-   "zh_tw": "阿耆尼"
+   "zh_tw": "阿耆尼",
+   "added": "2018/09/27"
   },
   "210017_01": {
    "en_us": "Leviathan",
    "ja_jp": "リヴァイアサン",
    "zh_cn": "利维坦",
-   "zh_tw": "利維坦"
+   "zh_tw": "利維坦",
+   "added": "2018/09/27"
   },
   "210018_01": {
    "en_us": "Zephyr",
    "ja_jp": "ワキヤン",
    "zh_cn": "瓦基扬",
-   "zh_tw": "雷鷹"
+   "zh_tw": "雷鷹",
+   "added": "2018/09/27"
   },
   "210019_01": {
    "en_us": "Nidhogg",
    "ja_jp": "ニーズヘッグ",
    "zh_cn": "尼德霍格",
-   "zh_tw": "尼德霍格"
+   "zh_tw": "尼德霍格",
+   "added": "2018/09/27"
   },
   "210020_01": {
    "en_us": "Jeanne d'Arc",
    "ja_jp": "ジャンヌダルク",
    "zh_cn": "贞德",
-   "zh_tw": "貞德"
+   "zh_tw": "貞德",
+   "added": "2018/09/27"
   },
   "210021_01": {
    "en_us": "Homura",
    "ja_jp": "ホムラリュウ",
    "zh_cn": "火龙",
-   "zh_tw": "火龍"
+   "zh_tw": "火龍",
+   "added": "2018/09/27"
   },
   "210022_01": {
    "en_us": "Cinder Drake",
    "ja_jp": "バーンドラコ",
    "zh_cn": "焰龙",
-   "zh_tw": "爆龍"
+   "zh_tw": "爆龍",
+   "added": "2018/09/27"
   },
   "210023_01": {
    "en_us": "Kindling Imp",
    "ja_jp": "キャンドルインプ",
    "zh_cn": "烛魔",
-   "zh_tw": "燈火魔龍"
+   "zh_tw": "燈火魔龍",
+   "added": "2018/09/27"
   },
   "210025_01": {
    "en_us": "Poseidon",
    "ja_jp": "ポセイドン",
    "zh_cn": "波塞冬",
-   "zh_tw": "波塞頓"
+   "zh_tw": "波塞頓",
+   "added": "2018/09/27"
   },
   "210030_01": {
    "en_us": "Arctos",
    "ja_jp": "アルクトス",
    "zh_cn": "阿尔库特斯",
-   "zh_tw": "阿魯庫托斯"
+   "zh_tw": "阿魯庫托斯",
+   "added": "2018/09/27"
   },
   "210036_01": {
    "en_us": "Garuda",
    "ja_jp": "ガルーダ",
    "zh_cn": "迦楼罗",
-   "zh_tw": "迦樓羅"
+   "zh_tw": "迦樓羅",
+   "added": "2018/09/27"
   },
   "210038_01": {
    "en_us": "High Midgardsormr",
    "ja_jp": "真ミドガルズオルム",
    "zh_cn": "真耶梦加得",
-   "zh_tw": "真‧耶夢加得"
+   "zh_tw": "真‧耶夢加得",
+   "added": "2018/09/27"
   },
   "210039_01": {
    "en_us": "High Brunhilda",
    "ja_jp": "真ブリュンヒルデ",
    "zh_cn": "真布伦希尔德",
-   "zh_tw": "真‧布倫希爾德"
+   "zh_tw": "真‧布倫希爾德",
+   "added": "2018/09/27"
   },
   "210040_01": {
    "en_us": "High Mercury",
    "ja_jp": "真マーキュリー",
    "zh_cn": "真墨丘利",
-   "zh_tw": "真‧墨丘利"
+   "zh_tw": "真‧墨丘利",
+   "added": "2018/09/27"
   },
   "210041_01": {
    "en_us": "High Jupiter",
    "ja_jp": "真ユピテル",
    "zh_cn": "真朱庇特",
-   "zh_tw": "真‧朱庇特"
+   "zh_tw": "真‧朱庇特",
+   "added": "2018/09/27"
   },
   "210042_01": {
    "en_us": "High Zodiark",
    "ja_jp": "真ゾディアーク",
    "zh_cn": "真佐迪亚克",
-   "zh_tw": "真‧索狄亞克"
+   "zh_tw": "真‧索狄亞克",
+   "added": "2018/09/27"
   },
   "210043_01": {
    "en_us": "Liger",
    "ja_jp": "ライガ",
    "zh_cn": "雷牙",
-   "zh_tw": "萊格"
+   "zh_tw": "萊格",
+   "added": "2018/09/27"
   },
   "210045_01": {
    "en_us": "Phantom",
    "ja_jp": "ファントム",
    "zh_cn": "幽影",
-   "zh_tw": "魅影"
+   "zh_tw": "魅影",
+   "added": "2018/09/27"
   },
   "210046_01": {
    "en_us": "Nyarlathotep",
    "ja_jp": "ニャルラトホテプ",
    "zh_cn": "奈亚拉托提普",
-   "zh_tw": "奈亞拉托提普"
+   "zh_tw": "奈亞拉托提普",
+   "added": "2018/09/27"
   },
   "210050_01": {
    "en_us": "Roc",
    "ja_jp": "フォーゲル",
    "zh_cn": "沃格尔",
-   "zh_tw": "沃格爾"
+   "zh_tw": "沃格爾",
+   "added": "2018/09/27"
   },
   "210052_01": {
    "en_us": "Prometheus",
    "ja_jp": "プロメテウス",
    "zh_cn": "普罗米修斯",
-   "zh_tw": "普羅米修斯"
+   "zh_tw": "普羅米修斯",
+   "added": "2018/09/27"
   },
   "210054_01": {
    "en_us": "Siren",
    "ja_jp": "セイレーン",
    "zh_cn": "塞壬",
-   "zh_tw": "賽蓮"
+   "zh_tw": "賽蓮",
+   "added": "2018/09/27"
   },
   "210055_01": {
    "en_us": "Erasmus",
    "ja_jp": "エルモ",
    "zh_cn": "埃尔默",
-   "zh_tw": "艾爾摩"
+   "zh_tw": "艾爾摩",
+   "added": "2018/09/27"
   },
   "210057_01": {
    "en_us": "Pele",
    "ja_jp": "ペレ",
    "zh_cn": "佩雷",
-   "zh_tw": "佩勒"
+   "zh_tw": "佩勒",
+   "added": "2018/09/27"
   },
   "210058_01": {
    "en_us": "Vodyanoy",
    "ja_jp": "ヴォジャノーイ",
    "zh_cn": "沃加诺伊",
-   "zh_tw": "沃加諾伊"
+   "zh_tw": "沃加諾伊",
+   "added": "2018/09/27"
   },
   "210065_01": {
    "en_us": "Moon Drake",
    "ja_jp": "ムーンドラコ",
    "zh_cn": "月龙",
-   "zh_tw": "月龍"
+   "zh_tw": "月龍",
+   "added": "2018/09/27"
   },
   "210071_01": {
    "en_us": "Nyarlathotep",
    "ja_jp": "ニャルラトホテプ",
    "zh_cn": "奈亚拉托提普",
-   "zh_tw": "奈亞拉托提普"
+   "zh_tw": "奈亞拉托提普",
+   "added": "2018/09/27"
   },
   "210072_01": {
    "en_us": "Maritimus",
    "ja_jp": "マリティムス",
    "zh_cn": "玛利蒂姆斯",
-   "zh_tw": "瑪利提姆斯"
+   "zh_tw": "瑪利提姆斯",
+   "added": "2018/09/27"
   },
   "210074_01": {
    "en_us": "Yulong",
    "ja_jp": "ギョクリュウ",
    "zh_cn": "玉龙",
-   "zh_tw": "玉龍"
+   "zh_tw": "玉龍",
+   "added": "2018/09/27"
   },
   "210075_01": {
    "en_us": "Halloween Silke",
    "ja_jp": "シルキー（ハロウィンVer.）",
    "zh_cn": "希露姬（万圣节Ver.）",
-   "zh_tw": "西爾琪（萬聖節Ver.）"
+   "zh_tw": "西爾琪（萬聖節Ver.）",
+   "added": "2018/09/27"
   },
   "210076_01": {
    "en_us": "Dragonyule Jeanne",
    "ja_jp": "ジャンヌダルク（星竜祭Ver.）",
    "zh_cn": "贞德（星龙祭Ver.）",
-   "zh_tw": "貞德（星龍祭Ver.）"
+   "zh_tw": "貞德（星龍祭Ver.）",
+   "added": "2018/09/27"
   },
   "210077_01": {
    "en_us": "Marishiten",
    "ja_jp": "マリシテン",
    "zh_cn": "摩利支天",
-   "zh_tw": "摩利支天"
+   "zh_tw": "摩利支天",
+   "added": "2018/09/27"
   },
   "210078_01": {
    "en_us": "Shishimai",
    "ja_jp": "シシマイ",
    "zh_cn": "狮子舞",
-   "zh_tw": "舞獅"
+   "zh_tw": "舞獅",
+   "added": "2018/09/27"
   },
   "210079_01": {
    "en_us": "Peng Lai",
    "ja_jp": "ホウライ",
    "zh_cn": "蓬莱",
-   "zh_tw": "蓬萊"
+   "zh_tw": "蓬萊",
+   "added": "2018/09/27"
   },
   "210081_01": {
    "en_us": "Simurgh",
    "ja_jp": "シームルグ",
    "zh_cn": "思摩夫",
-   "zh_tw": "希莫鳥"
+   "zh_tw": "希莫鳥",
+   "added": "2018/09/27"
   },
   "210083_01": {
    "en_us": "Barbatos",
    "ja_jp": "バルバトス",
    "zh_cn": "巴巴托斯",
-   "zh_tw": "巴爾巴托斯"
+   "zh_tw": "巴爾巴托斯",
+   "added": "2018/09/27"
   },
   "210088_01": {
    "en_us": "Zephyr (Void)",
    "ja_jp": "",
    "zh_cn": "瓦基扬（黑暗魔力)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "210093_01": {
    "en_us": "Divine Dragon",
    "ja_jp": "神竜",
    "zh_cn": "神龙",
-   "zh_tw": "神龍"
+   "zh_tw": "神龍",
+   "added": "2018/09/27"
   },
   "210094_01": {
    "en_us": "Pop-Star Siren",
    "ja_jp": "セイレーン（ライブVer.）",
    "zh_cn": "塞壬（演出Ver.）",
-   "zh_tw": "賽蓮（舞台Ver.）"
+   "zh_tw": "賽蓮（舞台Ver.）",
+   "added": "2018/09/27"
   },
   "210095_01": {
    "en_us": "Parallel Zodiark",
    "ja_jp": "異天ゾディアーク",
    "zh_cn": "异天佐迪亚克",
-   "zh_tw": "異天‧索狄亞克"
+   "zh_tw": "異天‧索狄亞克",
+   "added": "2018/09/27"
   },
   "210096_01": {
    "en_us": "Agni (Void)",
    "ja_jp": "",
    "zh_cn": "阿格尼（黑暗魔力)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "210097_01": {
    "en_us": "Halloween Maritimus",
    "ja_jp": "マリティムス（ハロウィンVer.）",
    "zh_cn": "玛利蒂姆斯（万圣节Ver.）",
-   "zh_tw": "瑪利提姆斯（萬聖節Ver.）"
+   "zh_tw": "瑪利提姆斯（萬聖節Ver.）",
+   "added": "2018/09/27"
   },
   "210101_01": {
    "en_us": "Poseidon (Void)",
    "ja_jp": "",
    "zh_cn": "波塞冬（黑暗魔力)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "210102_01": {
    "en_us": "Jeanne d'Arc (Void)",
    "ja_jp": "",
    "zh_cn": "贞德（黑暗魔力)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "210103_01": {
    "en_us": "Apollo",
    "ja_jp": "アポロン",
    "zh_cn": "阿波罗",
-   "zh_tw": "阿波羅"
+   "zh_tw": "阿波羅",
+   "added": "2018/09/27"
   },
   "210105_01": {
    "en_us": "Hastur",
    "ja_jp": "ハスター",
    "zh_cn": "哈斯塔",
-   "zh_tw": "哈斯塔"
+   "zh_tw": "哈斯塔",
+   "added": "2018/09/27"
   },
   "210106_01": {
    "en_us": "Nidhogg (Void)",
    "ja_jp": "",
    "zh_cn": "尼德霍格（黑暗魔力)",
-   "zh_tw": ""
+   "zh_tw": "",
+   "added": "2018/09/27"
   },
   "210110_01": {
    "en_us": "Daikokuten",
    "ja_jp": "ダイコクテン",
    "zh_cn": "大黑天",
-   "zh_tw": "大黑天"
+   "zh_tw": "大黑天",
+   "added": "2018/09/27"
   },
   "210113_01": {
    "en_us": "Brunhilda",
    "ja_jp": "ブリュンヒルデ",
    "zh_cn": "布伦希尔德",
-   "zh_tw": "布倫希爾德"
+   "zh_tw": "布倫希爾德",
+   "added": "2018/09/27"
   },
   "210114_01": {
    "en_us": "Ebisu",
    "ja_jp": "エビス",
    "zh_cn": "惠比寿",
-   "zh_tw": "惠比壽"
+   "zh_tw": "惠比壽",
+   "added": "2018/09/27"
   },
   "210115_01": {
    "en_us": "Andromeda",
    "ja_jp": "アンドロメダ",
    "zh_cn": "安德洛墨达",
-   "zh_tw": "安朵美達"
+   "zh_tw": "安朵美達",
+   "added": "2018/09/27"
   },
   "210121_01": {
    "en_us": "Rathalos",
    "ja_jp": "リオレウス",
    "zh_cn": "火龙",
-   "zh_tw": "火龍"
+   "zh_tw": "火龍",
+   "added": "2018/09/27"
   },
   "210122_01": {
    "en_us": "Dreadking Rathalos",
    "ja_jp": "黒炎王リオレウス",
    "zh_cn": "黑炎王雄火龙",
-   "zh_tw": "黑炎王火龍"
+   "zh_tw": "黑炎王火龍",
+   "added": "2018/09/27"
   },
   "210123_01": {
    "en_us": "Fatalis",
    "ja_jp": "ミラボレアス",
    "zh_cn": "黑龙",
-   "zh_tw": "黑龍"
+   "zh_tw": "黑龍",
+   "added": "2018/09/27"
   },
   "210128_01": {
    "en_us": "Puppy",
    "ja_jp": "犬",
    "zh_cn": "小狗",
-   "zh_tw": "狗狗"
+   "zh_tw": "狗狗",
+   "added": "2018/09/27"
   },
   "210130_01": {
    "en_us": "Styx",
    "ja_jp": "ステュクス",
    "zh_cn": "斯堤克斯",
-   "zh_tw": "斯堤克斯"
+   "zh_tw": "斯堤克斯",
+   "added": "2018/09/27"
   }
  },
  "onepart": [

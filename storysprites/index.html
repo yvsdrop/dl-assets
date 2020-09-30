@@ -9,7 +9,7 @@
     .nav-icons {display:flex;align-items:center;position:absolute;top:1em;right:1em}
     .nav-icons img {height:24px}
     .github-commit-time {color: var(--secondary);font-size: smaller;}
-    .entries-grid {display:grid;grid-gap:1em;grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));margin:2em auto}
+    .entries-grid {display:grid;grid-gap:1em;grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));margin:1em auto}
     .chara-link a {display:block}
     .chara-link img {width:80px;height:80px}
     .part {padding:6px;margin:2px;border-radius:4px;cursor:pointer}
@@ -27,6 +27,14 @@
   <div id="main" class="container" style="display:none;margin-top:2em;text-align:center">
     <h2>Dragalia Lost Story Sprites</h2>
     <strong>Latest update:</strong> <span id="latestCommit"></span>
+    <div style="margin:1em;text-align:right">
+      Sort by:
+      <select class="custom-select" id="sortSelect" style="width:auto">
+        <option value="id">Id</option>
+        <option value="name">Name</option>
+        <option value="newest">Newest</option>
+      </select>
+    </div>
     <div id="chara-entries" class="entries-grid"></div>
     <h3>Units with only one expression</h3>
     <div id="one-part-entries" class="entries-grid"></div>
@@ -45,7 +53,7 @@
     <canvas id="canvas" title="Constructed image can be copied or saved via right-click menu" style="flex:none;align-self:center;margin:0 auto"></canvas>
   </div>
   <div class="nav-icons">
-    <select class="form-control" id="localeSelect" style="display:none;margin-right:1em">
+    <select class="custom-select" id="localeSelect" style="display:none;margin-right:1em">
       <option value="en_us">English</option>
       <option value="ja_jp">日本語</option>
       <option value="zh_cn">简体中文</option>
@@ -55,6 +63,11 @@
     <a href="https://github.com/yvsdrop/dl-assets"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/info/v9/gm_grey-48dp/2x/gm_info_gm_grey_48dp.png"></a>
   </div>
   <script>
+    const comparators = {
+      'id': () => (a, b) => a[0].localeCompare(b[0]),
+      'name': (locale) => (a, b) => a[1][locale].localeCompare(b[1][locale]),
+      'newest': () => (a, b) => b[1]['added'].localeCompare(a[1]['added']),
+    };
     let main_data, base_image, parts_data;
     let main_loaded = false;
     const canvas = document.getElementById('canvas');
@@ -72,6 +85,9 @@
       }
     });
     $('#localeSelect').change(function() {
+      renderAllCharacters();
+    });
+    $('#sortSelect').change(function() {
       renderAllCharacters();
     });
 
@@ -105,9 +121,11 @@
       const entries = [];
       const onePartEntries = [];
       const partlessEntries = [];
-      for (const id in main_data['labels']) {
-        const labels = main_data['labels'][id];
-        const label = labels[$('#localeSelect').val()] || labels['en_us'];
+      const locale = $('#localeSelect').val();
+      const items = Object.entries(main_data['labels']).sort(comparators[$('#sortSelect').val()](locale));
+
+      for (const [id, labels] of items) {
+        const label = labels[locale] || labels['en_us'];
         if (main_data['onepart'].includes(id)) {
           onePartEntries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
         } else if (main_data['partsless'].includes(id)) {
