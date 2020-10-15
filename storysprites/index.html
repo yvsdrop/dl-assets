@@ -16,18 +16,28 @@
     .part:hover {background:rgba(0,0,0,.2)}
     .part.selected {background:lightskyblue}
     .part img {border-radius:4px;max-width:100px}
+    @media (min-width:761px) {
+      #editor-panel {height:100vh;padding:2em;overflow-y:auto;flex:1 0 415px;max-width:max(415px, 45vw);border-right:1px solid #ccc}
+    }
+    @media (max-width:760px) {
+      #editor {flex-flow:column-reverse;justify-content:flex-end}
+      #editor-panel {padding:2em;border-top:1px solid #ccc}
+    }
+    @media (max-width:760px) and (max-height:1200px) {
+      #canvas {max-height:max(500px,50vh)}
+    }
   </style>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174467306-1"></script>
   <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-174467306-1');</script>
-  <title>Dragalia Story Sprites</title>
+  <title>Dragalia Lost Story Sprites</title>
 </head>
 <body>
-  <div id="main" class="container" style="display:none;margin-top:2em;text-align:center">
+  <div id="main" class="container" style="display:none;margin-top:4em;text-align:center">
     <h2>Dragalia Lost Story Sprites</h2>
     <strong>Latest update:</strong>
-    <a href="https://github.com/yvsdrop/dl-assets">Add Postmortem Panic Story Sprites</a>
-    <span class="update-time"> • 2020/10/12</span>
+    <a href="https://github.com/yvsdrop/dl-assets">Increase mobile-friendliness</a>
+    <span class="update-time"> • 2020/10/14</span>
     <div style="margin:1em;text-align:right">
       Sort by:
       <select class="custom-select" id="sortSelect" style="width:auto">
@@ -43,15 +53,19 @@
     <div id="partsless-entries" class="entries-grid"></div>
   </div>
   <div id="editor" style="display:none;min-height:100vh">
-    <div style="height:100vh;padding:2em;overflow-y:auto;flex:1 0 415px;max-width:max(415px, 45vw);border-right:1px solid #ccc">
-      <div class="custom-control custom-checkbox custom-control-inline" style="vertical-align:middle">
-        <input type="checkbox" id="faceOnlyCheckbox" class="custom-control-input">
-        <label class="custom-control-label" for="faceOnlyCheckbox">Hide background</label>
-      </div>
+    <div id="editor-panel">
+      <button id="copy-btn" class="btn btn-primary"><img style="display:block;width:22px" src="https://fonts.gstatic.com/s/i/googlematerialicons/content_copy/v7/white-48dp/2x/gm_content_copy_white_48dp.png" alt="Copy" title="Copy"></button>
+      <button id="save-btn" class="btn btn-primary"><img style="display:block;width:22px" src="https://fonts.gstatic.com/s/i/googlematerialicons/save_alt/v6/white-48dp/2x/gm_save_alt_white_48dp.png" alt="Save" title="Save"></button>
       <button id="reset-btn" class="btn btn-outline-primary">Reset</button>
+      <div class="custom-control custom-checkbox" style="display:inline-flex;margin-left:1rem;vertical-align:middle">
+        <input type="checkbox" id="faceOnlyCheckbox" class="custom-control-input">
+        <label class="custom-control-label" for="faceOnlyCheckbox">Face only</label>
+      </div>
       <div id="parts-list" style="display:flex;flex-flow:row wrap;margin:1em -10px 0"></div>
     </div>
-    <canvas id="canvas" title="Constructed image can be copied or saved via right-click menu" style="flex:none;align-self:center;margin:0 auto"></canvas>
+    <div style="align-self:center;margin:2em auto 1em">
+      <canvas id="canvas" style="max-width:100%"></canvas>
+    </div>
   </div>
   <div class="nav-icons">
     <select class="custom-select" id="localeSelect" style="display:none;margin-right:1em">
@@ -69,10 +83,11 @@
       'name': (locale) => (a, b) => a[1][locale].localeCompare(b[1][locale]),
       'newest': () => (a, b) => b[1]['added'].localeCompare(a[1]['added']),
     };
-    let main_data, base_image, parts_data;
+    let id, main_data, base_image, parts_data;
     let main_loaded = false;
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
+    const downloadLink = document.createElement('a');
     onpopstate = navigate;
     navigate();
 
@@ -91,6 +106,16 @@
     $('#sortSelect').change(function() {
       renderAllCharacters();
     });
+    $('#copy-btn').click(function() {
+      canvas.toBlob((blob) => navigator.clipboard.write([new ClipboardItem({'image/png': blob})]));
+    });
+    $('#save-btn').click(function() {
+      downloadLink.setAttribute('download', id + '.png');
+      canvas.toBlob((blob) => {
+        downloadLink.setAttribute('href', URL.createObjectURL(blob));
+        downloadLink.click();
+      });
+    });
 
     function toggleMain(show) {
       $('#localeSelect').toggle(show);
@@ -98,7 +123,7 @@
       $('#editor').css('display', show ? 'none' : 'flex');
     }
     function navigate() {
-      const id = window.location.search.substring(1);
+      id = window.location.search.substring(1);
       if (!id) {
         loadMain();
       } else {
@@ -114,9 +139,6 @@
           main_data = json;
           main_loaded = true;
           renderAllCharacters();
-          $('#latestCommit').githubInfoWidget(
-            {user: 'yvsdrop', repo: 'dl-assets', branch: 'master'});
-          });
     }
     function renderAllCharacters() {
       const entries = [];
