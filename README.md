@@ -12,4 +12,4 @@ Some labels require manual entry and are thus subject to human error. Please fee
 Mouth/face combinations are not actually deterministically available in the data, so I'm using a basic heuristic to divide them, and it might capture some false negatives. If you come across any bad cases, please feel free to report in the issues tab.
 
 # Credits
-* [sh0wer1ee's multi-language localization](https://github.com/sh0wer1ee/DLPortraits): Localized labels were taken from a snapshot of sh0wer1ee's multi-locale labelled characters and manually merged in where applicable.
+* [sh0wer1ee's multi-language localization](https://github.com/sh0wer1ee/DLPortraits): Localized labels were taken from a snapshot of sh0wer1ee's multi-locale labelled characters on Sep 10, 2020, and manually merged in where applicable.
