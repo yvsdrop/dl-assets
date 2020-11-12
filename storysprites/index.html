@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Story sprite expressions image viewer & customizer for the mobile game Dragalia Lost.">
+  <title>Dragalia Lost Story Sprites</title>
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <style>
@@ -12,29 +14,16 @@
     .entries-grid {display:grid;grid-gap:1em;grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));margin:1em auto}
     .chara-link a {display:block}
     .chara-link img {width:80px;height:80px}
-    .part {padding:6px;margin:2px;border-radius:4px;cursor:pointer}
-    .part:hover {background:rgba(0,0,0,.2)}
-    .part.selected {background:lightskyblue}
-    .part img {border-radius:4px;max-width:100px}
-    @media (min-width:761px) {
-      #editor-panel {height:100vh;padding:2em;overflow-y:auto;flex:1 0 415px;max-width:max(415px, 45vw);border-right:1px solid #ccc}
-    }
-    @media (max-width:760px) {
-      #editor {flex-flow:column-reverse;justify-content:flex-end}
-      #editor-panel {padding:2em;border-top:1px solid #ccc}
-    }
-    @media (max-width:760px) and (max-height:1200px) {
-      #canvas {max-height:max(500px,50vh)}
+    @media (max-width:480px) {
+      .entries-grid {column-gap:0}
     }
   </style>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174467306-1"></script>
   <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-174467306-1');</script>
-  <meta name="description" content="Story sprite expressions image viewer & customizer for the mobile game Dragalia Lost.">
-  <title>Dragalia Lost Story Sprites</title>
 </head>
 <body>
-  <div id="main" class="container" style="display:none;margin-top:4em;text-align:center">
+  <div id="main" class="container" style="margin-top:4em;text-align:center">
     <h2>Dragalia Lost Story Sprites</h2>
     <strong>Latest update:</strong>
     <a href="https://github.com/yvsdrop/dl-assets">Northern Negotiators</a>
@@ -53,21 +42,6 @@
     <h3>Units with no expressions</h3>
     <div id="partsless-entries" class="entries-grid"></div>
   </div>
-  <div id="editor" style="display:none;min-height:100vh">
-    <div id="editor-panel">
-      <button id="copy-btn" class="btn btn-primary"><img style="display:block;width:22px" src="https://fonts.gstatic.com/s/i/googlematerialicons/content_copy/v7/white-48dp/2x/gm_content_copy_white_48dp.png" alt="Copy" title="Copy"></button>
-      <button id="save-btn" class="btn btn-primary"><img style="display:block;width:22px" src="https://fonts.gstatic.com/s/i/googlematerialicons/save_alt/v6/white-48dp/2x/gm_save_alt_white_48dp.png" alt="Save" title="Save"></button>
-      <button id="reset-btn" class="btn btn-outline-primary">Reset</button>
-      <div class="custom-control custom-checkbox" style="display:inline-flex;margin-left:1rem;vertical-align:middle">
-        <input type="checkbox" id="faceOnlyCheckbox" class="custom-control-input">
-        <label class="custom-control-label" for="faceOnlyCheckbox">Face only</label>
-      </div>
-      <div id="parts-list" style="display:flex;flex-flow:row wrap;margin:1em -10px 0"></div>
-    </div>
-    <div style="align-self:center;margin:2em auto 1em">
-      <canvas id="canvas" style="max-width:100%"></canvas>
-    </div>
-  </div>
   <div class="nav-icons">
     <select class="custom-select" id="localeSelect" style="display:none;margin-right:1em">
       <option value="en_us">English</option>
@@ -75,7 +49,6 @@
       <option value="zh_cn">简体中文</option>
       <option value="zh_tw">繁體中文</option>
     </select>
-    <a id="home-link" href="./"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/home/v7/gm_grey-48dp/2x/gm_home_gm_grey_48dp.png"></a>
     <a href="https://github.com/yvsdrop/dl-assets"><img src="https://fonts.gstatic.com/s/i/googlematerialicons/info/v9/gm_grey-48dp/2x/gm_info_gm_grey_48dp.png"></a>
   </div>
   <script>
@@ -84,64 +57,21 @@
       'name': (locale) => (a, b) => a[1][locale].localeCompare(b[1][locale]),
       'newest': () => (a, b) => b[1]['added'].localeCompare(a[1]['added']),
     };
-    let id, main_data, base_image, parts_data;
-    let main_loaded = false;
-    const canvas = document.getElementById('canvas');
-    const ctx = canvas.getContext('2d');
-    const downloadLink = document.createElement('a');
-    onpopstate = navigate;
-    navigate();
+    let main_data;
 
-    $('#home-link').click(function(e) {
-      if (!e.ctrlKey && !e.metaKey && e.which != 2) {
-        if (!!window.location.search) {
-          history.pushState({}, document.body.title, this.href);
-          navigate();
-        }
-        return false;
-      }
-    });
+    fetch('index.json')
+      .then(response => response.json())
+      .then(json => {
+        main_data = json;
+        renderAllCharacters();
+      });
     $('#localeSelect').change(function() {
       renderAllCharacters();
     });
     $('#sortSelect').change(function() {
       renderAllCharacters();
     });
-    $('#copy-btn').click(function() {
-      canvas.toBlob((blob) => navigator.clipboard.write([new ClipboardItem({'image/png': blob})]));
-    });
-    $('#save-btn').click(function() {
-      downloadLink.setAttribute('download', id + '.png');
-      canvas.toBlob((blob) => {
-        downloadLink.setAttribute('href', URL.createObjectURL(blob));
-        downloadLink.click();
-      });
-    });
 
-    function toggleMain(show) {
-      $('#localeSelect').toggle(show);
-      $('#main').toggle(show);
-      $('#editor').css('display', show ? 'none' : 'flex');
-    }
-    function navigate() {
-      id = window.location.search.substring(1);
-      if (!id) {
-        loadMain();
-      } else {
-        renderSingleCharacter(id);
-      }
-    }
-    function loadMain() {
-      toggleMain(true);
-      if (main_loaded) { return; }
-      fetch('index.json')
-        .then(response => response.json())
-        .then(json => {
-          main_data = json;
-          main_loaded = true;
-          renderAllCharacters();
-        });
-    }
     function renderAllCharacters() {
       const entries = [];
       const onePartEntries = [];
@@ -152,104 +82,16 @@
       for (const [id, labels] of items) {
         const label = labels[locale] || labels['en_us'];
         if (main_data['onepart'].includes(id)) {
-          onePartEntries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
+          onePartEntries.push(`<div class="chara-link"><a href="viewer.html?id=${id}"><img src="${id}/${id}_parts_c000.png">${id}</a>${label}</div>`);
         } else if (main_data['partsless'].includes(id)) {
-          partlessEntries.push(`<div class="chara-link"><a href="?${id}">${id}</a>${label}</div>`);
+          partlessEntries.push(`<div class="chara-link"><a href="viewer.html?id=${id}">${id}</a>${label}</div>`);
         } else {
-          entries.push(`<div class="chara-link"><a href="?${id}"><img src="${id}/${id}.png">${id}</a>${label}</div>`);
+          entries.push(`<div class="chara-link"><a href="viewer.html?id=${id}"><img src="${id}/${id}.png">${id}</a>${label}</div>`);
         }
       }
       document.getElementById('chara-entries').innerHTML = entries.join('');
       document.getElementById('one-part-entries').innerHTML = onePartEntries.join('');
       document.getElementById('partsless-entries').innerHTML = partlessEntries.join('');
-      $('.chara-link a').click(function(e) {
-        if (!e.ctrlKey && !e.metaKey && e.which != 2) {
-          history.pushState({}, this.href.split('?')[1], this.href);
-          navigate();
-          return false;
-        }
-      });
-    }
-    function renderSingleCharacter(id) {
-      fetch(`${id}/index.json`)
-          .then(response => response.json())
-          .then(json => {
-            parts_data = json;
-            renderSingleCharacterInner(id);
-          });
-    }
-    function renderSingleCharacterInner(id) {
-      // Construct main content.
-      const parts = [];
-      parts_data['parts'].forEach((part_data, index) => {
-        if (index > 0) {
-          parts.push('<hr style="width:100%">');
-        }
-        for (const group_index in part_data['images']) {
-          for (const part_id of part_data['images'][group_index].sort()) {
-            parts.push(`<a class="part" data-index="${group_index}" data-part-index="${index}"><img title="${part_id}" src="${id}/${id}_parts_c${part_id}.png"></a>`);
-          }
-        }
-      });
-      document.getElementById('parts-list').innerHTML = parts.join('');
-
-      // Draw the base image onto the canvas.
-      resetDimensions();
-      base_image = new Image();
-      base_image.onload = reset;
-      base_image.src = `${id}/${id}_base.png`;
-
-      $('#faceOnlyCheckbox').click(function() {
-        resetDimensions();
-        redraw();
-      });
-      $('.part').click(function() {
-        // When a part is selected, deselect all other parts that have the same
-        // part and alpha index. These are guaranteed to be mutually exclusive parts.
-        if (!this.classList.contains('selected')) {
-          $(`.selected[data-part-index="${this.dataset['partIndex']}"][data-index="${this.dataset['index']}"]`).removeClass('selected');
-        }
-        $(this).toggleClass('selected');
-        redraw();
-      });
-      $('#reset-btn').click(function() {
-        reset();
-        $('.selected').each(function() {
-          $(this).removeClass('selected');
-        });
-      });
-      toggleMain(false);
-    }
-    function resetDimensions() {
-      if ($('#faceOnlyCheckbox').prop('checked')) {
-        canvas.width = parts_data['parts'][0]['size']['x'];
-        canvas.height = parts_data['parts'][0]['size']['y'];
-      } else {
-        canvas.width = parts_data['rect']['width'];
-        canvas.height = parts_data['rect']['height'];
-      }
-    }
-    function reset() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      if (!$('#faceOnlyCheckbox').prop('checked')) {
-        ctx.drawImage(base_image, 0, 0);
-      }
-    }
-    function redraw() {
-      reset();
-      const cropToFace = $('#faceOnlyCheckbox').prop('checked');
-      const selected = $('.selected');
-      if (selected.length) {
-        selected.each(function() {
-          const part_pos = cropToFace
-              ? {'x': 0, 'y': 0}
-              : parts_data['parts'][this.dataset['partIndex']]['position'];
-          ctx.drawImage(this.firstChild, part_pos['x'], part_pos['y']);
-        });
-      } else if (cropToFace) {
-        ctx.fillStyle = '#eee';
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-      }
     }
   </script>
 </body>
